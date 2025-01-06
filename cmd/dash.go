@@ -11,7 +11,7 @@ var DashCmd = &cobra.Command{
 }
 
 func init() {
-	DashCmd.PersistentFlags().StringP("player", "p", "byteford", "name of the player to use")
+	DashCmd.PersistentFlags().StringP("player", "p", "player", "name of the player to use")
 
 	DashCmd.AddCommand(dash.CraftCmd)
 }

@@ -11,7 +11,7 @@ var PlayerCmd = &cobra.Command{
 }
 
 func init() {
-	PlayerCmd.PersistentFlags().StringP("player", "p", "byteford", "name of the player to use")
+	PlayerCmd.PersistentFlags().StringP("player", "p", "player", "name of the player to use")
 	PlayerCmd.AddCommand(player.InitCmd)
 	PlayerCmd.AddCommand(player.InfoCmd)
 	PlayerCmd.AddCommand(player.CraftCmd)
