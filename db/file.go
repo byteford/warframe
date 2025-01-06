@@ -2,6 +2,7 @@ package db
 
 import (
 	"encoding/json"
+	"fmt"
 	"os"
 
 	"github.com/byteford/warframe/inventory"
@@ -9,8 +10,7 @@ import (
 )
 
 func LoadItems(name string) (inventory.Items, error) {
-
-	res, err := os.ReadFile(name)
+	res, err := os.ReadFile(fmt.Sprintf("%s.json", name))
 	if err != nil {
 		return nil, err
 	}
@@ -24,12 +24,11 @@ func LoadItems(name string) (inventory.Items, error) {
 }
 
 func SaveItems(name string, items inventory.Items) error {
-
 	jsonOutput, err := json.Marshal(items)
 	if err != nil {
 		return err
 	}
-	err = os.WriteFile(name, jsonOutput, 0644)
+	err = os.WriteFile(fmt.Sprintf("%s.json", name), jsonOutput, 0644)
 	if err != nil {
 		return err
 	}
@@ -37,8 +36,7 @@ func SaveItems(name string, items inventory.Items) error {
 }
 
 func LoadPlayer(name string) (player.Player, error) {
-
-	res, err := os.ReadFile(name)
+	res, err := os.ReadFile(fmt.Sprintf("%s.json", name))
 	if err != nil {
 		return player.Player{}, err
 	}
@@ -49,4 +47,16 @@ func LoadPlayer(name string) (player.Player, error) {
 		return player.Player{}, err
 	}
 	return p, nil
+}
+
+func SavePlayer(name string, p player.Player) error {
+	jsonOutput, err := json.Marshal(p)
+	if err != nil {
+		return err
+	}
+	err = os.WriteFile(fmt.Sprintf("%s.json", name), jsonOutput, 0644)
+	if err != nil {
+		return err
+	}
+	return nil
 }

@@ -14,7 +14,7 @@ var itemCmd = &cobra.Command{
 }
 
 func init() {
-	itemCmd.PersistentFlags().StringP("file", "f", "items.json", "location of items file")
+	itemCmd.PersistentFlags().StringP("file", "f", "items", "location of items file")
 	rootCmd.AddCommand(itemCmd)
 }
 

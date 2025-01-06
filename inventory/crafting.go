@@ -5,8 +5,8 @@ import (
 )
 
 type Crafting struct {
-	Blueprint     Blueprint `json:"blueprint"`
-	Materials     Materials `json:"materials"`
+	Blueprint     Blueprint `json:"blueprint,omitempty"`
+	Materials     Materials `json:"materials,omitempty"`
 	BaseMaterials Materials
 }
 
@@ -16,7 +16,7 @@ type Blueprint struct {
 
 type Material struct {
 	Name   string `json:"name"`
-	Amount int    `json:"amount"`
+	Amount int    `json:"amount,omitempty"`
 }
 
 type Materials []Material

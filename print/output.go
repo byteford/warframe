@@ -16,5 +16,4 @@ func Output(format string, a ...any) {
 	fmt.Fprintf(w, format, a...)
 	fmt.Fprintf(w, "-----\n")
 	w.Flush()
-
 }

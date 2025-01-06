@@ -9,11 +9,20 @@ import (
 
 type Item struct {
 	Name     string   `json:"name"`
-	Amount   int      `json:"amount"`
-	Crafting Crafting `json:"crafting"`
+	Amount   int      `json:"amount,omitempty"`
+	Crafting Crafting `json:"crafting,omitempty"`
 }
 
 type Items []Item
+
+func ItemIndexFromList(items Items, name string) int {
+	for i, v := range items {
+		if strings.EqualFold(v.Name, name) {
+			return i
+		}
+	}
+	return -1
+}
 
 func ItemFromList(items Items, name string) (Item, error) {
 	for _, v := range items {
@@ -51,4 +60,15 @@ func LoadInBase(items Items) (Items, error) {
 		items = append(items, Item{Name: v.Name})
 	}
 	return items, nil
+}
+
+func (items Items) UpdateItem(name string, amount int) (Items, error) {
+	i := items
+	index := ItemIndexFromList(items, name)
+	if index == -1 {
+		i = append(items, Item{Name: name, Amount: amount})
+		return i, nil
+	}
+	items[index].Amount = amount
+	return i, nil
 }
