@@ -4,23 +4,36 @@ import (
 	"encoding/json"
 	"os"
 
-	inventory "github.com/byteford/warframe/inventory"
+	"github.com/byteford/warframe/inventory"
 	"github.com/byteford/warframe/player"
 )
 
-func LoadItems(name string) ([]inventory.Item, error) {
+func LoadItems(name string) (inventory.Items, error) {
 
 	res, err := os.ReadFile(name)
 	if err != nil {
 		return nil, err
 	}
 
-	var items []inventory.Item
+	var items inventory.Items
 	err = json.Unmarshal(res, &items)
 	if err != nil {
 		return nil, err
 	}
 	return items, nil
+}
+
+func SaveItems(name string, items inventory.Items) error {
+
+	jsonOutput, err := json.Marshal(items)
+	if err != nil {
+		return err
+	}
+	err = os.WriteFile(name, jsonOutput, 0644)
+	if err != nil {
+		return err
+	}
+	return nil
 }
 
 func LoadPlayer(name string) (player.Player, error) {

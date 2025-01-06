@@ -1,5 +1,9 @@
 package inventory
 
+import (
+	"fmt"
+)
+
 type Crafting struct {
 	Blueprint     Blueprint `json:"blueprint"`
 	Materials     Materials `json:"materials"`
@@ -17,8 +21,14 @@ type Material struct {
 
 type Materials []Material
 
-func (c Crafting) GetBaseMaterials(items []Item) (Materials, error) {
+const enderr = "end of tree"
+
+func (c Crafting) GetBaseMaterials(items Items) (Materials, error) {
 	var mats Materials
+
+	if len(c.Materials) == 0 {
+		return Materials{}, fmt.Errorf("%s", enderr)
+	}
 	for _, v := range c.Materials {
 		item, err := ItemFromList(items, v.Name)
 		if err != nil {
@@ -26,7 +36,10 @@ func (c Crafting) GetBaseMaterials(items []Item) (Materials, error) {
 		}
 		res, err := item.Crafting.GetBaseMaterials(items)
 		if err != nil {
-			return Materials{}, err
+			if err.Error() != enderr {
+				return Materials{}, err
+			}
+			mats = append(mats, v)
 		}
 		mats = append(mats, res...)
 	}

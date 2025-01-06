@@ -1,14 +1,12 @@
-package cmd
+package inventory
 
 import (
 	"fmt"
 	"os"
 	"text/tabwriter"
-
-	"github.com/byteford/warframe/inventory"
 )
 
-func printCraft(item inventory.Item) {
+func CraftPrint(item Item) {
 	w := tabwriter.NewWriter(os.Stdout, 1, 1, 1, ' ', 0)
 	fmt.Fprintf(w, "-----\n")
 	fmt.Fprintf(w, "Item:\t\t%s\n", item.Name)
