@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"sort"
 	"strconv"
 	"strings"
 
@@ -125,16 +126,26 @@ func playerRun(cmd *cobra.Command, args []string) error {
 				return err
 			}
 			reader := bufio.NewReader(os.Stdin)
+			sort.Slice(all, func(i, j int) bool {
+				return all[i].Name < all[j].Name
+			})
 			for i, v := range all {
+				item, err := inventory.ItemFromList(playerItems, v.Name)
+				if err == nil {
+					print.Printf("%s [%d]: ", v.Name, item.Amount)
+				}
 				print.Printf("%s: ", v.Name)
 				text, err := reader.ReadString('\n')
 				if err != nil {
 					return err
 				}
-				amount, err := strconv.Atoi(strings.Trim(text, " \n"))
+				amount := item.Amount
+				if !strings.EqualFold(text, "\n") {
+					amount, err = strconv.Atoi(strings.Trim(text, " \n"))
+				}
 				if err != nil {
 					if fmt.Sprintf("%T", text) != "int" {
-						print.Output("Input: \"%[1]s\", is type: \"%[1]T\", but should be \"int\"\n", text)
+						print.Output("Input: \"%[1]q\", is type: \"%[1]T\", but should be \"int\"\n", text)
 					}
 					return err
 				}
