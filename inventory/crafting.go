@@ -2,6 +2,7 @@ package inventory
 
 import (
 	"fmt"
+	"sort"
 )
 
 type Crafting struct {
@@ -22,6 +23,13 @@ type Material struct {
 type Materials []Material
 
 const enderr = "end of tree"
+
+func (m Materials) Sort() Materials {
+	sort.Slice(m, func(i, j int) bool {
+		return m[i].Name < m[j].Name
+	})
+	return m
+}
 
 func (c Crafting) GetBaseMaterials(items Items) (Materials, error) {
 	var mats Materials

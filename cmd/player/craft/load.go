@@ -4,7 +4,6 @@ import (
 	"bufio"
 	"fmt"
 	"os"
-	"sort"
 	"strconv"
 	"strings"
 
@@ -50,53 +49,14 @@ func loadRun(cmd *cobra.Command, args []string) error {
 		return err
 	}
 	playerItems := playerObj.Inventory
-	var craftMats inventory.Materials
-	for _, v := range playerObj.Plan.Craft {
-		item, err := inventory.ItemFromList(items, v.Name)
-		if err != nil {
-			return err
-		}
-		mats, err := item.Crafting.GetBaseMaterials(items)
-		if err != nil {
-			return err
-		}
-		craftMats = append(craftMats, mats...)
-	}
-	all, err := craftMats.Unique()
+	reader := bufio.NewReader(os.Stdin)
+	check, err := playerObj.Plan.Craft.Unique()
 	if err != nil {
 		return err
 	}
-	reader := bufio.NewReader(os.Stdin)
-	sort.Slice(all, func(i, j int) bool {
-		return all[i].Name < all[j].Name
-	})
-	for i, v := range all {
-		item, err := inventory.ItemFromList(playerItems, v.Name)
-		if err == nil {
-			print.Printf("%s [%d]: ", v.Name, item.Amount)
-		}
-		print.Printf("%s: ", v.Name)
-		text, err := reader.ReadString('\n')
-		if err != nil {
-			return err
-		}
-		amount := item.Amount
-		if !strings.EqualFold(text, "\n") {
-			amount, err = strconv.Atoi(strings.Trim(text, " \n"))
-		}
-		if err != nil {
-			if fmt.Sprintf("%T", text) != "int" {
-				print.Output("Input: \"%[1]q\", is type: \"%[1]T\", but should be \"int\"\n", text)
-			}
-			return err
-		}
-		print.Output("%d\n", amount)
-		playerItems, err = playerItems.UpdateItem(v.Name, amount)
-		if err != nil {
-			return err
-		}
-
-		all[i].Amount = amount
+	playerItems, err = checkAll(reader, check, playerItems, items)
+	if err != nil {
+		return err
 	}
 	playerObj.Inventory = playerItems
 	err = db.SavePlayer(playerName, playerObj)
@@ -104,4 +64,56 @@ func loadRun(cmd *cobra.Command, args []string) error {
 		return err
 	}
 	return nil
+}
+
+func itemAmount(reader *bufio.Reader, playerItems inventory.Items, name string) (int, error) {
+	item, _ := inventory.ItemFromList(playerItems, name) //if error the item doesnt currently exsist for the player
+	print.Printf("%s [%d]: ", name, item.Amount)
+	text, err := reader.ReadString('\n')
+	if err != nil {
+		return -1, err
+	}
+	amount := item.Amount
+	if !strings.EqualFold(text, "\n") {
+		amount, err = strconv.Atoi(strings.Trim(text, " \n"))
+	}
+	if err != nil {
+		if fmt.Sprintf("%T", text) != "int" {
+			print.Output("Input: \"%[1]q\", is type: \"%[1]T\", but should be \"int\"\n", text)
+		}
+		return -1, err
+	}
+	print.Output("%d\n", amount)
+	return amount, nil
+}
+
+func checkAll(reader *bufio.Reader, check inventory.Materials, playerItems, items inventory.Items) (inventory.Items, error) {
+	var matts inventory.Materials
+
+	for _, v := range check.Sort() {
+		item, err := inventory.ItemFromList(items, v.Name)
+		if err != nil {
+			return inventory.Items{}, err
+		}
+		amount, err := itemAmount(reader, playerItems, item.Name)
+		if err != nil {
+			return inventory.Items{}, err
+		}
+		playerItems, err = playerItems.UpdateItem(v.Name, amount)
+		if err != nil {
+			return inventory.Items{}, err
+		}
+		if amount > v.Amount {
+			continue
+		}
+		matts = append(matts, item.Crafting.Materials...)
+	}
+	if len(matts) == 0 {
+		return playerItems, nil
+	}
+	mUnique, err := matts.Unique()
+	if err != nil {
+		return inventory.Items{}, err
+	}
+	return checkAll(reader, mUnique, playerItems, items)
 }
