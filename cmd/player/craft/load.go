@@ -103,7 +103,7 @@ func checkAll(reader *bufio.Reader, check inventory.Materials, playerItems, item
 		if err != nil {
 			return inventory.Items{}, err
 		}
-		if amount > v.Amount {
+		if amount >= v.Amount {
 			continue
 		}
 		matts = append(matts, item.Crafting.Materials...)
