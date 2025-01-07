@@ -8,9 +8,10 @@ import (
 )
 
 type Item struct {
-	Name     string   `json:"name"`
-	Amount   int      `json:"amount,omitempty"`
-	Crafting Crafting `json:"crafting,omitempty"`
+	Name         string   `json:"name"`
+	Amount       int      `json:"amount,omitempty"`
+	Crafting     Crafting `json:"crafting,omitempty"`
+	FarmingNotes string   `json:"farmingNotes,omitempty"`
 }
 
 type Items []Item

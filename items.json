@@ -1,1 +1,341 @@
-[{"name":"Wisp","crafting":{"blueprint":{"name":"Wisp Blueprint"},"materials":[{"name":"Wisp Neuroptics","amount":1},{"name":"Wisp Chassis","amount":1},{"name":"Wisp Systems","amount":1},{"name":"Orokin Cell","amount":3}],"BaseMaterials":null}},{"name":"Ash","crafting":{"blueprint":{"name":"Ash Blueprint"},"materials":[{"name":"Ash Neuroptics","amount":1},{"name":"Ash Chassis","amount":1},{"name":"Ash Systems","amount":1},{"name":"Orokin Cell","amount":3}],"BaseMaterials":null}},{"name":"Wisp Chassis","crafting":{"blueprint":{"name":"Wisp Chassis"},"materials":[{"name":"Hexenon","amount":500},{"name":"Argon Crystal","amount":1},{"name":"Oxium","amount":700},{"name":"Alloy Plate","amount":2750}],"BaseMaterials":null}},{"name":"Wisp Neuroptics","crafting":{"blueprint":{"name":"Wisp Neuroptics"},"materials":[{"name":"Hexenon","amount":300},{"name":"Tellurium","amount":2},{"name":"Plastids","amount":950},{"name":"Polymer Bundle","amount":2200}],"BaseMaterials":null}},{"name":"Wisp Systems","crafting":{"blueprint":{"name":"Wisp Systems"},"materials":[{"name":"Hexenon","amount":400},{"name":"Nitain Extract","amount":2},{"name":"Rubedo","amount":950},{"name":"Salvage","amount":10000}],"BaseMaterials":null}},{"name":"Oxium","crafting":{"blueprint":{"name":""},"BaseMaterials":null}},{"name":"Salvage","crafting":{"blueprint":{"name":""},"BaseMaterials":null}},{"name":"Polymer Bundle","crafting":{"blueprint":{"name":""},"BaseMaterials":null}},{"name":"Argon Crystal","crafting":{"blueprint":{"name":""},"BaseMaterials":null}},{"name":"Nitain Extract","crafting":{"blueprint":{"name":""},"BaseMaterials":null}},{"name":"Hexenon","crafting":{"blueprint":{"name":""},"BaseMaterials":null}},{"name":"Tellurium","crafting":{"blueprint":{"name":""},"BaseMaterials":null}},{"name":"Orokin Cell","crafting":{"blueprint":{"name":""},"BaseMaterials":null}},{"name":"Rubedo","crafting":{"blueprint":{"name":""},"BaseMaterials":null}},{"name":"Alloy Plate","crafting":{"blueprint":{"name":""},"BaseMaterials":null}},{"name":"Plastids","crafting":{"blueprint":{"name":""},"BaseMaterials":null}},{"name":"Ash Neuroptics","crafting":{"blueprint":{"name":"Ash Neuroptics Blueprint"},"materials":[{"name":"Alloy Plate","amount":150},{"name":"Neural Sensors","amount":1},{"name":"Polymer Bundle","amount":150},{"name":"Rubedo","amount":500}],"BaseMaterials":null}},{"name":"Ash Chassis","crafting":{"blueprint":{"name":"Ash Chassis Blueprint"},"materials":[{"name":"Morphics","amount":1},{"name":"Ferrite","amount":1000},{"name":"Rubedo","amount":300}],"BaseMaterials":null}},{"name":"Ash Systems","crafting":{"blueprint":{"name":"Ash Systems Blueprint"},"materials":[{"name":"Ferrite","amount":4600},{"name":"Polymer Bundle","amount":1700},{"name":"Morphics","amount":5},{"name":"Orokin Cell","amount":1}],"BaseMaterials":null}},{"name":"Ferrite","crafting":{"blueprint":{"name":""},"BaseMaterials":null}},{"name":"Neural Sensors","crafting":{"blueprint":{"name":""},"BaseMaterials":null}},{"name":"Morphics","crafting":{"blueprint":{"name":""},"BaseMaterials":null}}]
+[
+  {
+    "name": "Wisp",
+    "crafting": {
+      "blueprint": {
+        "name": "Wisp Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Wisp Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Wisp Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Wisp Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 3
+        }
+      ],
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Ash",
+    "crafting": {
+      "blueprint": {
+        "name": "Ash Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Ash Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Ash Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Ash Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 3
+        }
+      ],
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Wisp Chassis",
+    "crafting": {
+      "blueprint": {
+        "name": "Wisp Chassis"
+      },
+      "materials": [
+        {
+          "name": "Hexenon",
+          "amount": 500
+        },
+        {
+          "name": "Argon Crystal",
+          "amount": 1
+        },
+        {
+          "name": "Oxium",
+          "amount": 700
+        },
+        {
+          "name": "Alloy Plate",
+          "amount": 2750
+        }
+      ],
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Wisp Neuroptics",
+    "crafting": {
+      "blueprint": {
+        "name": "Wisp Neuroptics"
+      },
+      "materials": [
+        {
+          "name": "Hexenon",
+          "amount": 300
+        },
+        {
+          "name": "Tellurium",
+          "amount": 2
+        },
+        {
+          "name": "Plastids",
+          "amount": 950
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 2200
+        }
+      ],
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Wisp Systems",
+    "crafting": {
+      "blueprint": {
+        "name": "Wisp Systems"
+      },
+      "materials": [
+        {
+          "name": "Hexenon",
+          "amount": 400
+        },
+        {
+          "name": "Nitain Extract",
+          "amount": 2
+        },
+        {
+          "name": "Rubedo",
+          "amount": 950
+        },
+        {
+          "name": "Salvage",
+          "amount": 10000
+        }
+      ],
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Oxium",
+    "crafting": {
+      "blueprint": {
+        "name": ""
+      },
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Salvage",
+    "crafting": {
+      "blueprint": {
+        "name": ""
+      },
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Polymer Bundle",
+    "crafting": {
+      "blueprint": {
+        "name": ""
+      },
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Argon Crystal",
+    "crafting": {
+      "blueprint": {
+        "name": ""
+      },
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Nitain Extract",
+    "farmingNotes": "Primarily obtained from Nightwave Offerings for Nora'sMixVol7Cred 15 per x5. This is an 'evergreen' offering and is always available for purchase in unlimited quantities.\nOther possible sources:\n\t\t0.67-2% (planet-dependent) drop chance in Resource Cache Rotation C reward (i.e. finding all three caches) in Reactor Sabotage and Exterminate.\n\t\t3.57-4.72% (stage-dependent) drop chance in Cetus Bounty during a Ghoul Purge event (every few weeks).\n\t\t0.129% drop chance by the Zealoid Prelate.\n\t\t0.129% drop chance by the Wolf of Saturn Six.\nRarely available from Gift from the Lotus alerts.",
+    "crafting": {
+      "blueprint": {
+        "name": ""
+      },
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Hexenon",
+    "crafting": {
+      "blueprint": {
+        "name": ""
+      },
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Tellurium",
+    "crafting": {
+      "blueprint": {
+        "name": ""
+      },
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Orokin Cell",
+    "crafting": {
+      "blueprint": {
+        "name": ""
+      },
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Rubedo",
+    "crafting": {
+      "blueprint": {
+        "name": ""
+      },
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Alloy Plate",
+    "crafting": {
+      "blueprint": {
+        "name": ""
+      },
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Plastids",
+    "crafting": {
+      "blueprint": {
+        "name": ""
+      },
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Ash Neuroptics",
+    "crafting": {
+      "blueprint": {
+        "name": "Ash Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Alloy Plate",
+          "amount": 150
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 1
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 150
+        },
+        {
+          "name": "Rubedo",
+          "amount": 500
+        }
+      ],
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Ash Chassis",
+    "crafting": {
+      "blueprint": {
+        "name": "Ash Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Ferrite",
+          "amount": 1000
+        },
+        {
+          "name": "Rubedo",
+          "amount": 300
+        }
+      ],
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Ash Systems",
+    "crafting": {
+      "blueprint": {
+        "name": "Ash Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Ferrite",
+          "amount": 4600
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 1700
+        },
+        {
+          "name": "Morphics",
+          "amount": 5
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ],
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Ferrite",
+    "crafting": {
+      "blueprint": {
+        "name": ""
+      },
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Neural Sensors",
+    "crafting": {
+      "blueprint": {
+        "name": ""
+      },
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Morphics",
+    "crafting": {
+      "blueprint": {
+        "name": ""
+      },
+      "BaseMaterials": null
+    }
+  }
+]
