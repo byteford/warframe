@@ -35,7 +35,7 @@ func craft(cmd *cobra.Command, args []string) error {
 	if err != nil {
 		return err
 	}
-	print.Output("To craft\n%+v\n", playerObj.Plan.Craft)
+	print.Output("To craft\n")
 	for _, v := range playerObj.Plan.Craft {
 		item, err := inventory.ItemFromList(items, v.Name)
 		if err != nil {
