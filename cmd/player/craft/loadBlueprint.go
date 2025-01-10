@@ -2,9 +2,7 @@ package craft
 
 import (
 	"bufio"
-	"fmt"
 	"os"
-	"strconv"
 	"strings"
 
 	"github.com/byteford/warframe/db"
@@ -13,17 +11,17 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var LoadCmd = &cobra.Command{
-	Use:   "load",
+var LoadBlueprintCmd = &cobra.Command{
+	Use:   "loadBlueprint",
 	Short: "Add item to be crafted",
-	RunE:  loadRun,
+	RunE:  loadBlueprintRun,
 }
 
 func init() {
 
 }
 
-func loadRun(cmd *cobra.Command, args []string) error {
+func loadBlueprintRun(cmd *cobra.Command, args []string) error {
 
 	file, err := cmd.Flags().GetString("file")
 	if err != nil {
@@ -43,7 +41,7 @@ func loadRun(cmd *cobra.Command, args []string) error {
 		}
 	}
 
-	print.Output("material loader\n")
+	print.Output("blueprint loader\n")
 	items, err := db.LoadItems(file)
 	if err != nil {
 		return err
@@ -54,7 +52,7 @@ func loadRun(cmd *cobra.Command, args []string) error {
 	if err != nil {
 		return err
 	}
-	playerItems, err = checkAll(reader, check, playerItems, items)
+	playerItems, err = checkAllBlueprint(reader, check, playerItems, items)
 	if err != nil {
 		return err
 	}
@@ -66,28 +64,7 @@ func loadRun(cmd *cobra.Command, args []string) error {
 	return nil
 }
 
-func itemAmount(reader *bufio.Reader, playerItems inventory.Items, name string) (int, error) {
-	item, _ := inventory.ItemFromList(playerItems, name) //if error the item doesnt currently exsist for the player
-	print.Printf("%s [%d]: ", name, item.Amount)
-	text, err := reader.ReadString('\n')
-	if err != nil {
-		return -1, err
-	}
-	amount := item.Amount
-	if !strings.EqualFold(text, "\n") {
-		amount, err = strconv.Atoi(strings.Trim(text, " \n"))
-		if err != nil {
-			if fmt.Sprintf("%T", text) != "int" {
-				print.Output("Input: \"%[1]q\", is type: \"%[1]T\", but should be \"int\"\n", text)
-			}
-			return -1, err
-		}
-	}
-	print.Output("%d\n", amount)
-	return amount, nil
-}
-
-func checkAll(reader *bufio.Reader, check inventory.Materials, playerItems, items inventory.Items) (inventory.Items, error) {
+func checkAllBlueprint(reader *bufio.Reader, check inventory.Materials, playerItems, items inventory.Items) (inventory.Items, error) {
 	var matts inventory.Materials
 
 	for _, v := range check.Sort() {
@@ -95,16 +72,16 @@ func checkAll(reader *bufio.Reader, check inventory.Materials, playerItems, item
 		if err != nil {
 			return inventory.Items{}, err
 		}
-		amount, err := itemAmount(reader, playerItems, item.Name)
-		if err != nil {
-			return inventory.Items{}, err
-		}
-		playerItems, err = playerItems.UpdateItem(v.Name, amount)
-		if err != nil {
-			return inventory.Items{}, err
-		}
-		if amount >= v.Amount {
+		if !item.IsCrafted() {
 			continue
+		}
+		have, err := blueprintHave(reader, playerItems, item.Name)
+		if err != nil {
+			return inventory.Items{}, err
+		}
+		playerItems, err = playerItems.UpdateItemBlueprint(v.Name, have)
+		if err != nil {
+			return inventory.Items{}, err
 		}
 		matts = append(matts, item.Crafting.Materials...)
 	}
@@ -115,5 +92,24 @@ func checkAll(reader *bufio.Reader, check inventory.Materials, playerItems, item
 	if err != nil {
 		return inventory.Items{}, err
 	}
-	return checkAll(reader, mUnique, playerItems, items)
+	return checkAllBlueprint(reader, mUnique, playerItems, items)
+}
+
+func blueprintHave(reader *bufio.Reader, playerItems inventory.Items, name string) (bool, error) {
+	item, _ := inventory.ItemFromList(playerItems, name) //if error the item doesnt currently exsist for the player
+	print.Printf("%s [%t]: ", name, item.Crafting.Blueprint.Have)
+	text, err := reader.ReadString('\n')
+	if err != nil {
+		return false, err
+	}
+	have := item.Crafting.Blueprint.Have
+	if !strings.EqualFold(text, "\n") {
+		if strings.EqualFold(string(text[0]), "y") {
+			have = true
+		} else if strings.EqualFold(string(text[0]), "n") {
+			have = false
+		}
+	}
+	print.Output("%t\n", have)
+	return have, nil
 }

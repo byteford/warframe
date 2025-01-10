@@ -36,21 +36,25 @@ func craft(cmd *cobra.Command, args []string) error {
 		return err
 	}
 	print.Output("To craft\n")
-	for _, v := range playerObj.Plan.Craft {
-		item, err := inventory.ItemFromList(items, v.Name)
-		if err != nil {
-			return err
-		}
-		mats, err := item.Crafting.GetBaseMaterials(items)
-		if err != nil {
-			return err
-		}
-		item.Crafting.BaseMaterials = mats
-		err = inventory.CraftPrintHave(item, playerObj.Inventory)
-		if err != nil {
-			return err
-		}
-
+	err = inventory.CraftPrintHave(playerObj.Plan.Craft, items, playerObj.Inventory)
+	if err != nil {
+		return err
 	}
+	// for _, v := range playerObj.Plan.Craft {
+	// 	item, err := inventory.ItemFromList(items, v.Name)
+	// 	if err != nil {
+	// 		return err
+	// 	}
+	// 	mats, err := item.Crafting.GetBaseMaterials(items)
+	// 	if err != nil {
+	// 		return err
+	// 	}
+	// 	item.Crafting.BaseMaterials = mats
+	// 	err = inventory.CraftPrintHave(item, items, playerObj.Inventory)
+	// 	if err != nil {
+	// 		return err
+	// 	}
+
+	// }
 	return nil
 }

@@ -14,4 +14,5 @@ func init() {
 	CraftCmd.AddCommand(craft.AddCmd)
 	CraftCmd.AddCommand(craft.DeleteCmd)
 	CraftCmd.AddCommand(craft.LoadCmd)
+	CraftCmd.AddCommand(craft.LoadBlueprintCmd)
 }

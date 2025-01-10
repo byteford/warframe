@@ -16,6 +16,10 @@ type Item struct {
 
 type Items []Item
 
+func (i Item) IsCrafted() bool {
+	return len(i.Crafting.Materials) > 0
+}
+
 func ItemIndexFromList(items Items, name string) int {
 	for i, v := range items {
 		if strings.EqualFold(v.Name, name) {
@@ -71,5 +75,16 @@ func (items Items) UpdateItem(name string, amount int) (Items, error) {
 		return i, nil
 	}
 	items[index].Amount = amount
+	return i, nil
+}
+
+func (items Items) UpdateItemBlueprint(name string, have bool) (Items, error) {
+	i := items
+	index := ItemIndexFromList(items, name)
+	if index == -1 {
+		i = append(items, Item{Name: name, Crafting: Crafting{Blueprint: Blueprint{Have: have}}})
+		return i, nil
+	}
+	items[index].Crafting.Blueprint.Have = have
 	return i, nil
 }

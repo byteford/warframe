@@ -54,6 +54,33 @@
     }
   },
   {
+    "name": "Chroma",
+    "crafting": {
+      "blueprint": {
+        "name": "Chroma Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Chroma Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Chroma Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Chroma Systems",
+          "amount": 1
+        },
+        {
+          "name": "Volt Neuroptics",
+          "amount": 1
+        }
+      ],
+      "BaseMaterials": null
+    }
+  },
+  {
     "name": "Wisp Chassis",
     "crafting": {
       "blueprint": {
@@ -172,13 +199,13 @@
   },
   {
     "name": "Nitain Extract",
-    "farmingNotes": "Primarily obtained from Nightwave Offerings for Nora'sMixVol7Cred 15 per x5. This is an 'evergreen' offering and is always available for purchase in unlimited quantities.\nOther possible sources:\n\t\t0.67-2% (planet-dependent) drop chance in Resource Cache Rotation C reward (i.e. finding all three caches) in Reactor Sabotage and Exterminate.\n\t\t3.57-4.72% (stage-dependent) drop chance in Cetus Bounty during a Ghoul Purge event (every few weeks).\n\t\t0.129% drop chance by the Zealoid Prelate.\n\t\t0.129% drop chance by the Wolf of Saturn Six.\nRarely available from Gift from the Lotus alerts.",
     "crafting": {
       "blueprint": {
         "name": ""
       },
       "BaseMaterials": null
-    }
+    },
+    "farmingNotes": "Primarily obtained from Nightwave Offerings for Nora'sMixVol7Cred 15 per x5. This is an 'evergreen' offering and is always available for purchase in unlimited quantities.\nOther possible sources:\n\t\t0.67-2% (planet-dependent) drop chance in Resource Cache Rotation C reward (i.e. finding all three caches) in Reactor Sabotage and Exterminate.\n\t\t3.57-4.72% (stage-dependent) drop chance in Cetus Bounty during a Ghoul Purge event (every few weeks).\n\t\t0.129% drop chance by the Zealoid Prelate.\n\t\t0.129% drop chance by the Wolf of Saturn Six.\nRarely available from Gift from the Lotus alerts."
   },
   {
     "name": "Hexenon",
@@ -331,6 +358,209 @@
   },
   {
     "name": "Morphics",
+    "crafting": {
+      "blueprint": {
+        "name": ""
+      },
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Volt Neuroptics",
+    "crafting": {
+      "blueprint": {
+        "name": "Volt Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Alloy Plate",
+          "amount": 150
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 1
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 150
+        },
+        {
+          "name": "Rubedo",
+          "amount": 500
+        }
+      ],
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Chroma Systems",
+    "crafting": {
+      "blueprint": {
+        "name": "Chroma Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Oxium",
+          "amount": 400
+        },
+        {
+          "name": "Argon Crystal",
+          "amount": 2
+        },
+        {
+          "name": "Neurodes",
+          "amount": 1
+        },
+        {
+          "name": "Saryn Systems",
+          "amount": 1
+        }
+      ],
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Chroma Neuroptics",
+    "crafting": {
+      "blueprint": {
+        "name": "Chroma Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Plastids",
+          "amount": 200
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 2
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 350
+        },
+        {
+          "name": "Ember Neuroptics",
+          "amount": 1
+        }
+      ],
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Chroma Chassis",
+    "crafting": {
+      "blueprint": {
+        "name": "Chroma Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Neurodes",
+          "amount": 2
+        },
+        {
+          "name": "Salvage",
+          "amount": 900
+        },
+        {
+          "name": "Plastids",
+          "amount": 50
+        },
+        {
+          "name": "Frost Chassis",
+          "amount": 1
+        }
+      ],
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Neurodes",
+    "crafting": {
+      "blueprint": {
+        "name": ""
+      },
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Ember Neuroptics",
+    "crafting": {
+      "blueprint": {
+        "name": "Ember Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Alloy Plate",
+          "amount": 150
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 1
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 150
+        },
+        {
+          "name": "Rubedo",
+          "amount": 500
+        }
+      ],
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Frost Chassis",
+    "crafting": {
+      "blueprint": {
+        "name": "Frost Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Ferrite",
+          "amount": 1000
+        },
+        {
+          "name": "Rubedo",
+          "amount": 300
+        }
+      ],
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Saryn Systems",
+    "crafting": {
+      "blueprint": {
+        "name": "Saryn Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Control Module",
+          "amount": 1
+        },
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Salvage",
+          "amount": 550
+        },
+        {
+          "name": "Plastids",
+          "amount": 350
+        }
+      ],
+      "BaseMaterials": null
+    }
+  },
+  {
+    "name": "Control Module",
     "crafting": {
       "blueprint": {
         "name": ""
