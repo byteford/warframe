@@ -57,6 +57,10 @@ func CraftPrintHave(toCraft Materials, items, have Items) error {
 	fmt.Fprintf(w, "%s\n", "Need to Gather:")
 	fmt.Fprintf(w, "-----\n")
 	printHave(w, required, items, have, "")
+	fmt.Fprintf(w, "-----\n")
+	fmt.Fprintf(w, "%s\n", "Blueprints needed:")
+	fmt.Fprintf(w, "-----\n")
+	printBlueprint(w, umats, items, have)
 	w.Flush()
 	return nil
 }
@@ -129,6 +133,31 @@ func printHave(w io.Writer, toCraft Materials, items, have Items, tabbing string
 				// continue
 			}
 			fmt.Fprintf(w, "%s%s%s%s%s \t%d/%d%s\n", ColourGray, tabbing, ColourNone, colour, base_item.Name, have_item.Amount, v.Amount, ColourNone)
+		}
+
+	}
+	return nil
+}
+
+func printBlueprint(w io.Writer, toCraft Materials, items, have Items) error {
+
+	colour := ColourWhite
+	for _, v := range toCraft.Sort() {
+		base_item, err := ItemFromList(items, v.Name)
+		if err != nil {
+			continue
+		}
+		have_item, err := ItemFromList(have, v.Name)
+		if err != nil {
+			if !strings.Contains(err.Error(), "not found") {
+				return err
+			}
+			continue
+		}
+		if base_item.IsCrafted() {
+			if !have_item.Crafting.Blueprint.Have {
+				fmt.Fprintf(w, "%s%s%s\n", colour, base_item.Name, ColourNone)
+			}
 		}
 
 	}
