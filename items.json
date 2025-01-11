@@ -22,8 +22,7 @@
           "name": "Orokin Cell",
           "amount": 3
         }
-      ],
-      "BaseMaterials": null
+      ]
     }
   },
   {
@@ -49,8 +48,111 @@
           "name": "Orokin Cell",
           "amount": 3
         }
-      ],
-      "BaseMaterials": null
+      ]
+    }
+  },
+  {
+    "name": "Atlas",
+    "crafting": {
+      "blueprint": {
+        "name": "Atlas Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Atlas Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Atlas Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Atlas Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Banshee",
+    "crafting": {
+      "blueprint": {
+        "name": "Banshee Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Banshee Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Banshee Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Banshee Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Baruuk",
+    "crafting": {
+      "blueprint": {
+        "name": "Baruuk Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Baruuk Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Baruuk Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Baruuk Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Caliban",
+    "crafting": {
+      "blueprint": {
+        "name": "Caliban Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Caliban Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Caliban Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Caliban Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 12
+        }
+      ]
     }
   },
   {
@@ -76,8 +178,1355 @@
           "name": "Volt Neuroptics",
           "amount": 1
         }
-      ],
-      "BaseMaterials": null
+      ]
+    }
+  },
+  {
+    "name": "Citrine",
+    "crafting": {
+      "blueprint": {
+        "name": "Citrine Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Citrine Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Citrine Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Citrine Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Cyte-09",
+    "crafting": {
+      "blueprint": {
+        "name": "Cyte-09 Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Cyte-09 Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Cyte-09 Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Cyte-09 Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Dagath",
+    "crafting": {
+      "blueprint": {
+        "name": "Dagath Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Dagath Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Dagath Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Dagath Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Dante",
+    "crafting": {
+      "blueprint": {
+        "name": "Dante Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Dante Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Dante Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Dante Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ember",
+    "crafting": {
+      "blueprint": {
+        "name": "Ember Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Ember Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Ember Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Ember Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Equinox",
+    "crafting": {
+      "blueprint": {
+        "name": "Equinox Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Equinox Day Aspect",
+          "amount": 1
+        },
+        {
+          "name": "Equinox Night Aspect",
+          "amount": 1
+        },
+        {
+          "name": "Forma",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Excalibur",
+    "crafting": {
+      "blueprint": {
+        "name": "Excalibur Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Excalibur Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Excalibur Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Excalibur Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Frost",
+    "crafting": {
+      "blueprint": {
+        "name": "Frost Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Frost Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Frost Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Frost Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Gara",
+    "crafting": {
+      "blueprint": {
+        "name": "Gara Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Gara Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Gara Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Gara Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Garuda",
+    "crafting": {
+      "blueprint": {
+        "name": "Garuda Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Garuda Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Garuda Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Garuda Systems",
+          "amount": 1
+        },
+        {
+          "name": "Kuva",
+          "amount": 3500
+        }
+      ]
+    }
+  },
+  {
+    "name": "Gauss",
+    "crafting": {
+      "blueprint": {
+        "name": "Gauss Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Gauss Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Gauss Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Gauss Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Grendel",
+    "crafting": {
+      "blueprint": {
+        "name": "Grendel Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Grendel Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Grendel Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Grendel Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Gyre",
+    "crafting": {
+      "blueprint": {
+        "name": "Gyre Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Gyre Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Gyre Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Gyre Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Harrow",
+    "crafting": {
+      "blueprint": {
+        "name": "Harrow Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Harrow Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Harrow Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Harrow Systems",
+          "amount": 1
+        },
+        {
+          "name": "Kuva",
+          "amount": 2000
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hildryn",
+    "crafting": {
+      "blueprint": {
+        "name": "Hildryn Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Hildryn Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Hildryn Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Hildryn Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hydroid",
+    "crafting": {
+      "blueprint": {
+        "name": "Hydroid Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Hydroid Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Hydroid Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Hydroid Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Inaros",
+    "crafting": {
+      "blueprint": {
+        "name": "Inaros Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Inaros Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Inaros Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Inaros Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ivara",
+    "crafting": {
+      "blueprint": {
+        "name": "Ivara Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Ivara Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Ivara Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Ivara Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Jade",
+    "crafting": {
+      "blueprint": {
+        "name": "Jade Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Jade Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Jade Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Jade Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Khora",
+    "crafting": {
+      "blueprint": {
+        "name": "Khora Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Khora Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Khora Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Khora Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Koumei",
+    "crafting": {
+      "blueprint": {
+        "name": "Koumei Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Koumei Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Koumei Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Koumei Systems",
+          "amount": 1
+        },
+        {
+          "name": "Fate Pearl",
+          "amount": 30
+        }
+      ]
+    }
+  },
+  {
+    "name": "Kullervo",
+    "crafting": {
+      "blueprint": {
+        "name": "Kullervo Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Kullervo Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Kullervo Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Kullervo Systems",
+          "amount": 1
+        },
+        {
+          "name": "Pathos Clamp",
+          "amount": 10
+        }
+      ]
+    }
+  },
+  {
+    "name": "Lavos",
+    "crafting": {
+      "blueprint": {
+        "name": "Lavos Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Lavos Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Lavos Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Lavos Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Limbo",
+    "crafting": {
+      "blueprint": {
+        "name": "Limbo Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Limbo Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Limbo Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Limbo Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Loki",
+    "crafting": {
+      "blueprint": {
+        "name": "Loki Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Loki Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Loki Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Loki Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Mag",
+    "crafting": {
+      "blueprint": {
+        "name": "Mag Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Mag Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Mag Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Mag Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Mesa",
+    "crafting": {
+      "blueprint": {
+        "name": "Mesa Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Mesa Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Mesa Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Mesa Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Mirage",
+    "crafting": {
+      "blueprint": {
+        "name": "Mirage Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Mirage Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Mirage Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Mirage Systems",
+          "amount": 1
+        },
+        {
+          "name": "Argon Crystal",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Nekros",
+    "crafting": {
+      "blueprint": {
+        "name": "Nekros Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Nekros Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Nekros Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Nekros Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Nezha",
+    "crafting": {
+      "blueprint": {
+        "name": "Nezha Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Nezha Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Nezha Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Nezha Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Nidus",
+    "crafting": {
+      "blueprint": {
+        "name": "Nidus Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Nidus Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Nidus Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Nidus Systems",
+          "amount": 1
+        },
+        {
+          "name": "Kuva",
+          "amount": 2000
+        }
+      ]
+    }
+  },
+  {
+    "name": "Nova",
+    "crafting": {
+      "blueprint": {
+        "name": "Nova Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Nova Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Nova Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Nova Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Nyx",
+    "crafting": {
+      "blueprint": {
+        "name": "Nyx Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Nyx Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Nyx Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Nyx Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Oberon",
+    "crafting": {
+      "blueprint": {
+        "name": "Oberon Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Oberon Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Oberon Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Oberon Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Octavia",
+    "crafting": {
+      "blueprint": {
+        "name": "Octavia Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Octavia Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Octavia Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Octavia Systems",
+          "amount": 1
+        },
+        {
+          "name": "Mandacord",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Protea",
+    "crafting": {
+      "blueprint": {
+        "name": "Protea Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Protea Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Protea Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Protea Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Qorvex",
+    "crafting": {
+      "blueprint": {
+        "name": "Qorvex Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Qorvex Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Qorvex Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Qorvex Systems",
+          "amount": 1
+        },
+        {
+          "name": "Echo Voca",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Revenant",
+    "crafting": {
+      "blueprint": {
+        "name": "Revenant Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Revenant Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Revenant Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Revenant Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Rhino",
+    "crafting": {
+      "blueprint": {
+        "name": "Rhino Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Rhino Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Rhino Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Rhino Systems",
+          "amount": 1
+        },
+        {
+          "name": "Gallium",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Saryn",
+    "crafting": {
+      "blueprint": {
+        "name": "Saryn Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Saryn Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Saryn Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Saryn Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Sevagoth",
+    "crafting": {
+      "blueprint": {
+        "name": "Sevagoth Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Sevagoth Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Sevagoth Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Sevagoth Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Styanax",
+    "crafting": {
+      "blueprint": {
+        "name": "Styanax Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Styanax Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Styanax Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Styanax Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 12
+        }
+      ]
+    }
+  },
+  {
+    "name": "Titania",
+    "crafting": {
+      "blueprint": {
+        "name": "Titania Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Titania Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Titania Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Titania Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Trinity",
+    "crafting": {
+      "blueprint": {
+        "name": "Trinity Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Trinity Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Trinity Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Trinity Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Valkyr",
+    "crafting": {
+      "blueprint": {
+        "name": "Valkyr Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Valkyr Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Valkyr Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Valkyr Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Vauban",
+    "crafting": {
+      "blueprint": {
+        "name": "Vauban Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Vauban Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Vauban Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Vauban Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Volt",
+    "crafting": {
+      "blueprint": {
+        "name": "Volt Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Volt Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Volt Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Volt Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Voruna",
+    "crafting": {
+      "blueprint": {
+        "name": "Voruna Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Voruna Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Voruna Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Voruna Systems",
+          "amount": 1
+        },
+        {
+          "name": "Lua Thrax Plasm",
+          "amount": 50
+        }
+      ]
+    }
+  },
+  {
+    "name": "Wukong",
+    "crafting": {
+      "blueprint": {
+        "name": "Wukong Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Wukong Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Wukong Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Wukong Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Xaku",
+    "crafting": {
+      "blueprint": {
+        "name": "Xaku Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Xaku Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Xaku Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Xaku Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Yareli",
+    "crafting": {
+      "blueprint": {
+        "name": "Yareli Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Yareli Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Yareli Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Yareli Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Zephyr",
+    "crafting": {
+      "blueprint": {
+        "name": "Zephyr Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Zephyr Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Zephyr Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Zephyr Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
     }
   },
   {
@@ -103,8 +1552,7 @@
           "name": "Alloy Plate",
           "amount": 2750
         }
-      ],
-      "BaseMaterials": null
+      ]
     }
   },
   {
@@ -130,8 +1578,7 @@
           "name": "Polymer Bundle",
           "amount": 2200
         }
-      ],
-      "BaseMaterials": null
+      ]
     }
   },
   {
@@ -157,108 +1604,74 @@
           "name": "Salvage",
           "amount": 10000
         }
-      ],
-      "BaseMaterials": null
+      ]
     }
   },
   {
     "name": "Oxium",
     "crafting": {
-      "blueprint": {
-        "name": ""
-      },
-      "BaseMaterials": null
+      "blueprint": {}
     }
   },
   {
     "name": "Salvage",
     "crafting": {
-      "blueprint": {
-        "name": ""
-      },
-      "BaseMaterials": null
+      "blueprint": {}
     }
   },
   {
     "name": "Polymer Bundle",
     "crafting": {
-      "blueprint": {
-        "name": ""
-      },
-      "BaseMaterials": null
+      "blueprint": {}
     }
   },
   {
     "name": "Argon Crystal",
     "crafting": {
-      "blueprint": {
-        "name": ""
-      },
-      "BaseMaterials": null
+      "blueprint": {}
     }
   },
   {
     "name": "Nitain Extract",
     "crafting": {
-      "blueprint": {
-        "name": ""
-      },
-      "BaseMaterials": null
+      "blueprint": {}
     },
     "farmingNotes": "Primarily obtained from Nightwave Offerings for Nora'sMixVol7Cred 15 per x5. This is an 'evergreen' offering and is always available for purchase in unlimited quantities.\nOther possible sources:\n\t\t0.67-2% (planet-dependent) drop chance in Resource Cache Rotation C reward (i.e. finding all three caches) in Reactor Sabotage and Exterminate.\n\t\t3.57-4.72% (stage-dependent) drop chance in Cetus Bounty during a Ghoul Purge event (every few weeks).\n\t\t0.129% drop chance by the Zealoid Prelate.\n\t\t0.129% drop chance by the Wolf of Saturn Six.\nRarely available from Gift from the Lotus alerts."
   },
   {
     "name": "Hexenon",
     "crafting": {
-      "blueprint": {
-        "name": ""
-      },
-      "BaseMaterials": null
+      "blueprint": {}
     }
   },
   {
     "name": "Tellurium",
     "crafting": {
-      "blueprint": {
-        "name": ""
-      },
-      "BaseMaterials": null
+      "blueprint": {}
     }
   },
   {
     "name": "Orokin Cell",
     "crafting": {
-      "blueprint": {
-        "name": ""
-      },
-      "BaseMaterials": null
+      "blueprint": {}
     }
   },
   {
     "name": "Rubedo",
     "crafting": {
-      "blueprint": {
-        "name": ""
-      },
-      "BaseMaterials": null
+      "blueprint": {}
     }
   },
   {
     "name": "Alloy Plate",
     "crafting": {
-      "blueprint": {
-        "name": ""
-      },
-      "BaseMaterials": null
+      "blueprint": {}
     }
   },
   {
     "name": "Plastids",
     "crafting": {
-      "blueprint": {
-        "name": ""
-      },
-      "BaseMaterials": null
+      "blueprint": {}
     }
   },
   {
@@ -284,8 +1697,7 @@
           "name": "Rubedo",
           "amount": 500
         }
-      ],
-      "BaseMaterials": null
+      ]
     }
   },
   {
@@ -307,8 +1719,7 @@
           "name": "Rubedo",
           "amount": 300
         }
-      ],
-      "BaseMaterials": null
+      ]
     }
   },
   {
@@ -334,35 +1745,25 @@
           "name": "Orokin Cell",
           "amount": 1
         }
-      ],
-      "BaseMaterials": null
+      ]
     }
   },
   {
     "name": "Ferrite",
     "crafting": {
-      "blueprint": {
-        "name": ""
-      },
-      "BaseMaterials": null
+      "blueprint": {}
     }
   },
   {
     "name": "Neural Sensors",
     "crafting": {
-      "blueprint": {
-        "name": ""
-      },
-      "BaseMaterials": null
+      "blueprint": {}
     }
   },
   {
     "name": "Morphics",
     "crafting": {
-      "blueprint": {
-        "name": ""
-      },
-      "BaseMaterials": null
+      "blueprint": {}
     }
   },
   {
@@ -388,8 +1789,7 @@
           "name": "Rubedo",
           "amount": 500
         }
-      ],
-      "BaseMaterials": null
+      ]
     }
   },
   {
@@ -415,8 +1815,7 @@
           "name": "Saryn Systems",
           "amount": 1
         }
-      ],
-      "BaseMaterials": null
+      ]
     }
   },
   {
@@ -442,8 +1841,7 @@
           "name": "Ember Neuroptics",
           "amount": 1
         }
-      ],
-      "BaseMaterials": null
+      ]
     }
   },
   {
@@ -469,17 +1867,13 @@
           "name": "Frost Chassis",
           "amount": 1
         }
-      ],
-      "BaseMaterials": null
+      ]
     }
   },
   {
     "name": "Neurodes",
     "crafting": {
-      "blueprint": {
-        "name": ""
-      },
-      "BaseMaterials": null
+      "blueprint": {}
     }
   },
   {
@@ -505,8 +1899,7 @@
           "name": "Rubedo",
           "amount": 500
         }
-      ],
-      "BaseMaterials": null
+      ]
     }
   },
   {
@@ -528,8 +1921,7 @@
           "name": "Rubedo",
           "amount": 300
         }
-      ],
-      "BaseMaterials": null
+      ]
     }
   },
   {
@@ -555,17 +1947,1165 @@
           "name": "Plastids",
           "amount": 350
         }
-      ],
-      "BaseMaterials": null
+      ]
     }
   },
   {
     "name": "Control Module",
     "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Wukong Systems",
+    "crafting": {
       "blueprint": {
-        "name": ""
+        "name": "Wukong Systems Blueprint"
       },
-      "BaseMaterials": null
+      "materials": [
+        {
+          "name": "Argon Crystal",
+          "amount": 2
+        },
+        {
+          "name": "Neurodes",
+          "amount": 2
+        },
+        {
+          "name": "Salvage",
+          "amount": 8000
+        },
+        {
+          "name": "Plastids",
+          "amount": 4000
+        }
+      ]
+    }
+  },
+  {
+    "name": "Wukong Neuroptics",
+    "crafting": {
+      "blueprint": {
+        "name": "Wukong Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Circuits",
+          "amount": 1400
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 1
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 2600
+        },
+        {
+          "name": "Nitain Extract",
+          "amount": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Wukong Chassis",
+    "crafting": {
+      "blueprint": {
+        "name": "Wukong Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Ferrite",
+          "amount": 900
+        },
+        {
+          "name": "Rubedo",
+          "amount": 50
+        },
+        {
+          "name": "Nitain Extract",
+          "amount": 4
+        }
+      ]
+    }
+  },
+  {
+    "name": "Nezha Chassis",
+    "crafting": {
+      "blueprint": {
+        "name": "Nezha Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Morphics",
+          "amount": 2
+        },
+        {
+          "name": "Ferrite",
+          "amount": 3200
+        },
+        {
+          "name": "Rubedo",
+          "amount": 600
+        },
+        {
+          "name": "Argon Crystal",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "Nezha Neuroptics",
+    "crafting": {
+      "blueprint": {
+        "name": "Nezha Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Argon Crystal",
+          "amount": 1
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 1
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 2100
+        },
+        {
+          "name": "Salvage",
+          "amount": 4500
+        }
+      ]
+    }
+  },
+  {
+    "name": "Nezha Systems",
+    "crafting": {
+      "blueprint": {
+        "name": "Nezha Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Control Module",
+          "amount": 1
+        },
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Ferrite",
+          "amount": 5000
+        },
+        {
+          "name": "Plastids",
+          "amount": 4200
+        }
+      ]
+    }
+  },
+  {
+    "name": "Circuits",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Banshee Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Dante Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Frost Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Hildryn Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Hildryn Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Caliban Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Excalibur Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Excalibur Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Gyre Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Cyte-09 Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Garuda Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Grendel Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Gara Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Citrine Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Kuva",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Grendel Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Baruuk Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Harrow Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Hydroid Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Baruuk Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Ember Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Garuda Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Gyre Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Equinox Night Aspect",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Gara Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Gauss Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Cyte-09 Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Ember Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Harrow Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Dagath Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Atlas Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Banshee Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Citrine Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Forma",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Gyre Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Dante Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Grendel Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Hydroid Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Dagath Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Gauss Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Atlas Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Gara Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Hydroid Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Baruuk Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Caliban Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Cyte-09 Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Equinox Day Aspect",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Frost Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Caliban Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Dagath Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Dante Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Garuda Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Harrow Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Excalibur Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Gauss Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Banshee Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Hildryn Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Atlas Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Citrine Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Mag Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Kullervo Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Mesa Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Mirage Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Styanax Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Valkyr Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Octavia Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Gallium",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Qorvex Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Inaros Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Lavos Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Oberon Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Jade Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Voruna Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Protea Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Revenant Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Lavos Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Oberon Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Mandacord",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Jade Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Loki Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Nova Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Ivara Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Ivara Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Volt Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Volt Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Zephyr Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Revenant Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Mirage Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Trinity Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Yareli Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Khora Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Koumei Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Xaku Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Qorvex Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Revenant Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Khora Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Mag Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Styanax Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Loki Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Nyx Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Nidus Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Inaros Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Rhino Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Xaku Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Yareli Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Fate Pearl",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Mirage Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Mag Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Jade Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Pathos Clamp",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Nekros Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Ivara Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Vauban Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Vauban Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Lavos Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Koumei Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Loki Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Protea Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Protea Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Mesa Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Trinity Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Voruna Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Titania Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Titania Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Sevagoth Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Styanax Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Vauban Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Nidus Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Rhino Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Trinity Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Valkyr Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Koumei Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Valkyr Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Limbo Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Oberon Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Octavia Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Nova Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Limbo Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Nova Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Lua Thrax Plasm",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Zephyr Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Kullervo Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Qorvex Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Nyx Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Zephyr Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Nyx Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Titania Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Saryn Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Inaros Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Khora Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Voruna Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Nekros Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Nekros Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Kullervo Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Mesa Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Sevagoth Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Sevagoth Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Octavia Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Rhino Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Limbo Systems",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Nidus Neuroptics",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Xaku Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Echo Voca",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Saryn Chassis",
+    "crafting": {
+      "blueprint": {}
+    }
+  },
+  {
+    "name": "Yareli Systems",
+    "crafting": {
+      "blueprint": {}
     }
   }
 ]
