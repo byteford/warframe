@@ -1629,7 +1629,8 @@
     "name": "Argon Crystal",
     "crafting": {
       "blueprint": {}
-    }
+    },
+    "farmingNotes": "Teshub/Void. Hepit/Void"
   },
   {
     "name": "Nitain Extract",
@@ -1672,7 +1673,8 @@
     "name": "Plastids",
     "crafting": {
       "blueprint": {}
-    }
+    },
+    "farmingNotes": "Assur/Uranus. Ophelia/Uranus"
   },
   {
     "name": "Ash Neuroptics",
@@ -2121,85 +2123,361 @@
   {
     "name": "Banshee Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Banshee Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Circuits",
+          "amount": 150
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 1
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 200
+        },
+        {
+          "name": "Salvage",
+          "amount": 500
+        }
+      ]
     }
   },
   {
     "name": "Dante Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Dante Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Entrati Lanthorn",
+          "amount": 3
+        },
+        {
+          "name": "Control Module",
+          "amount": 10
+        },
+        {
+          "name": "Bellow Voca",
+          "amount": 4
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 4
+        }
+      ]
     }
   },
   {
     "name": "Frost Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Frost Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Control Module",
+          "amount": 1
+        },
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Salvage",
+          "amount": 500
+        },
+        {
+          "name": "Plastids",
+          "amount": 500
+        }
+      ]
     }
   },
   {
     "name": "Hildryn Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Hildryn Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Lazulite Toroid",
+          "amount": 2
+        },
+        {
+          "name": "Nitain Extract",
+          "amount": 2
+        },
+        {
+          "name": "Thermal Sludge",
+          "amount": 90
+        },
+        {
+          "name": "Rubedo",
+          "amount": 2300
+        }
+      ]
     }
   },
   {
     "name": "Hildryn Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Hildryn Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Lazulite Toroid",
+          "amount": 2
+        },
+        {
+          "name": "Tellurium",
+          "amount": 2
+        },
+        {
+          "name": "Gorgaricus Spore",
+          "amount": 95
+        },
+        {
+          "name": "Plastids",
+          "amount": 1500
+        }
+      ]
     }
   },
   {
     "name": "Caliban Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Caliban Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Anomaly Shard",
+          "amount": 3
+        },
+        {
+          "name": "Narmer Isoplast",
+          "amount": 12
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 10
+        },
+        {
+          "name": "Tralok Eyes",
+          "amount": 20
+        }
+      ]
     }
   },
   {
     "name": "Excalibur Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Excalibur Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Alloy Plate",
+          "amount": 150
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 1
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 150
+        },
+        {
+          "name": "Rubedo",
+          "amount": 500
+        }
+      ]
     }
   },
   {
     "name": "Excalibur Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Excalibur Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Ferrite",
+          "amount": 1000
+        },
+        {
+          "name": "Rubedo",
+          "amount": 300
+        }
+      ]
     }
   },
   {
     "name": "Gyre Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Gyre Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Argon Crystal",
+          "amount": 2
+        },
+        {
+          "name": "Thrax Plasm",
+          "amount": 500
+        },
+        {
+          "name": "Voidplume Quill",
+          "amount": 40
+        },
+        {
+          "name": "Ferrite",
+          "amount": 6500
+        }
+      ]
     }
   },
   {
     "name": "Cyte-09 Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Cyte-09 Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Höllvanian Pitchweave Fragment",
+          "amount": 200
+        },
+        {
+          "name": "Experimental Arc-Relay",
+          "amount": 6
+        },
+        {
+          "name": "Techrot Motherboard",
+          "amount": 8
+        },
+        {
+          "name": "Alloy Plate",
+          "amount": 1000
+        }
+      ]
     }
   },
   {
     "name": "Garuda Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Garuda Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Calda Toroid",
+          "amount": 2
+        },
+        {
+          "name": "Radiant Zodian",
+          "amount": 3
+        },
+        {
+          "name": "Travocyte Alloy",
+          "amount": 40
+        },
+        {
+          "name": "Alloy Plate",
+          "amount": 2200
+        }
+      ]
     }
   },
   {
     "name": "Grendel Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Grendel Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Condroc wing",
+          "amount": 25
+        },
+        {
+          "name": "Kuaka Spinal Claw",
+          "amount": 30
+        },
+        {
+          "name": "Tralok Eyes",
+          "amount": 20
+        },
+        {
+          "name": "Murkray Liver",
+          "amount": 15
+        }
+      ]
     }
   },
   {
     "name": "Gara Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Gara Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Neurodes",
+          "amount": 2
+        },
+        {
+          "name": "Grokdrul",
+          "amount": 65
+        },
+        {
+          "name": "Pyrotic Allow",
+          "amount": 90
+        },
+        {
+          "name": "Circuits",
+          "amount": 700
+        }
+      ]
     }
   },
   {
     "name": "Citrine Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Citrine Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Circuits",
+          "amount": 1500
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 1500
+        },
+        {
+          "name": "Gallium",
+          "amount": 3
+        },
+        {
+          "name": "Morphics",
+          "amount": 2
+        }
+      ]
     }
   },
   {
@@ -2211,109 +2489,461 @@
   {
     "name": "Grendel Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Grendel Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Circuits",
+          "amount": 1125
+        },
+        {
+          "name": "Morphics",
+          "amount": 10
+        },
+        {
+          "name": "Fish Meat",
+          "amount": 125
+        },
+        {
+          "name": "Fish Oil",
+          "amount": 100
+        }
+      ]
     }
   },
   {
     "name": "Baruuk Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Baruuk Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Vega Toroid",
+          "amount": 3
+        },
+        {
+          "name": "Salvage",
+          "amount": 3250
+        },
+        {
+          "name": "Hespazym Alloy",
+          "amount": 100
+        },
+        {
+          "name": "Marquise Thyst",
+          "amount": 5
+        }
+      ]
     }
   },
   {
     "name": "Harrow Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Harrow Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Circuits",
+          "amount": 2500
+        },
+        {
+          "name": "Cryotic",
+          "amount": 1000
+        },
+        {
+          "name": "Ferrite",
+          "amount": 25000
+        },
+        {
+          "name": "Control Module",
+          "amount": 15
+        }
+      ]
     }
   },
   {
     "name": "Hydroid Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Hydroid Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        },
+        {
+          "name": "Gallium",
+          "amount": 4
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 500
+        },
+        {
+          "name": "Alloy Plate",
+          "amount": 220
+        }
+      ]
     }
   },
   {
     "name": "Baruuk Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Baruuk Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Calda Toroid",
+          "amount": 3
+        },
+        {
+          "name": "Ferrite",
+          "amount": 2500
+        },
+        {
+          "name": "Tromyzon Entroplasma",
+          "amount": 10
+        },
+        {
+          "name": "Radiant Zodian",
+          "amount": 5
+        }
+      ]
     }
   },
   {
     "name": "Ember Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Ember Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Control Module",
+          "amount": 1
+        },
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Salvage",
+          "amount": 500
+        },
+        {
+          "name": "Plastids",
+          "amount": 220
+        }
+      ]
     }
   },
   {
     "name": "Garuda Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Garuda Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Sola Toroid",
+          "amount": 2
+        },
+        {
+          "name": "Marquise Thyst",
+          "amount": 3
+        },
+        {
+          "name": "Venerdo Alloy",
+          "amount": 40
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 2400
+        }
+      ]
     }
   },
   {
     "name": "Gyre Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Gyre Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Neural Sensors",
+          "amount": 6
+        },
+        {
+          "name": "Thrax Plasm",
+          "amount": 300
+        },
+        {
+          "name": "Voidgel Orb",
+          "amount": 60
+        },
+        {
+          "name": "Plastids",
+          "amount": 4500
+        }
+      ]
     }
   },
   {
     "name": "Equinox Night Aspect",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Equinox Night Aspect Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Equinox Night Aspect Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Equinox Night Aspect Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Equinox Night Aspect Systems",
+          "amount": 1
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
     }
   },
   {
     "name": "Gara Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Gara Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Morphics",
+          "amount": 2
+        },
+        {
+          "name": "Charc Electroplax",
+          "amount": 35
+        },
+        {
+          "name": "Esher Devar",
+          "amount": 25
+        },
+        {
+          "name": "Circuits",
+          "amount": 850
+        }
+      ]
     }
   },
   {
     "name": "Gauss Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Gauss Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Radiant Zodian",
+          "amount": 3
+        },
+        {
+          "name": "Marquise Thyst",
+          "amount": 3
+        },
+        {
+          "name": "Mytocardio Spore",
+          "amount": 70
+        },
+        {
+          "name": "Thermal Sludge",
+          "amount": 85
+        }
+      ]
     }
   },
   {
     "name": "Cyte-09 Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Cyte-09 Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Efervon Sample",
+          "amount": 60
+        },
+        {
+          "name": "Techrot Chitin",
+          "amount": 40
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 2
+        },
+        {
+          "name": "Argon Crystal",
+          "amount": 1
+        }
+      ]
     }
   },
   {
     "name": "Ember Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Ember Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Ferrite",
+          "amount": 1000
+        },
+        {
+          "name": "Rubedo",
+          "amount": 2
+        }
+      ]
     }
   },
   {
     "name": "Harrow Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Harrow Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Alloy Plate",
+          "amount": 20000
+        },
+        {
+          "name": "Salvage",
+          "amount": 25000
+        },
+        {
+          "name": "Oxium",
+          "amount": 800
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 5
+        }
+      ]
     }
   },
   {
     "name": "Dagath Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Dagath Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Vainthorn",
+          "amount": 34
+        },
+        {
+          "name": "Alloy Plate",
+          "amount": 2000
+        },
+        {
+          "name": "Neurodes",
+          "amount": 3
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 3
+        }
+      ]
     }
   },
   {
     "name": "Atlas Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Atlas Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Ferrite",
+          "amount": 4600
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 1700
+        },
+        {
+          "name": "Morphics",
+          "amount": 5
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
     }
   },
   {
     "name": "Banshee Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Banshee Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Ferrite",
+          "amount": 900
+        },
+        {
+          "name": "Rubedo",
+          "amount": 50
+        }
+      ]
     }
   },
   {
     "name": "Citrine Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Citrine Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Rubedo",
+          "amount": 1000
+        },
+        {
+          "name": "Salvage",
+          "amount": 1500
+        },
+        {
+          "name": "Faceted Tiametrite",
+          "amount": 15
+        },
+        {
+          "name": "Argon Crystal",
+          "amount": 2
+        }
+      ]
     }
   },
   {
@@ -2325,193 +2955,836 @@
   {
     "name": "Gyre Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Gyre Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Morphics",
+          "amount": 8
+        },
+        {
+          "name": "Thrax Plasm",
+          "amount": 500
+        },
+        {
+          "name": "Entrati Lanthorn",
+          "amount": 12
+        },
+        {
+          "name": "Alloy Plate",
+          "amount": 3300
+        }
+      ]
     }
   },
   {
     "name": "Dante Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Dante Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Entrati Lanthorn",
+          "amount": 3
+        },
+        {
+          "name": "Circuits",
+          "amount": 4000
+        },
+        {
+          "name": "Entrati Obols",
+          "amount": 9000
+        },
+        {
+          "name": "Necracoil",
+          "amount": 450
+        }
+      ]
     }
   },
   {
     "name": "Grendel Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Grendel Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Argon Crystal",
+          "amount": 2
+        },
+        {
+          "name": "Control Module",
+          "amount": 5
+        },
+        {
+          "name": "Ferrite",
+          "amount": 3500
+        },
+        {
+          "name": "Alloy Plate",
+          "amount": 3800
+        }
+      ]
     }
   },
   {
     "name": "Hydroid Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Hydroid Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Argon Crystal",
+          "amount": 2
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 1000
+        },
+        {
+          "name": "Rubedo",
+          "amount": 300
+        },
+        {
+          "name": "Nano Spores",
+          "amount": 1200
+        }
+      ]
     }
   },
   {
     "name": "Dagath Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Dagath Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Vainthorn",
+          "amount": 24
+        },
+        {
+          "name": "Salvage",
+          "amount": 1500
+        },
+        {
+          "name": "Morphics",
+          "amount": 4
+        },
+        {
+          "name": "Argon Crystal",
+          "amount": 2
+        }
+      ]
     }
   },
   {
     "name": "Gauss Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Gauss Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Radiant Sentirum",
+          "amount": 3
+        },
+        {
+          "name": "Heart Nyth",
+          "amount": 3
+        },
+        {
+          "name": "Star Crimzian",
+          "amount": 6
+        },
+        {
+          "name": "Grokdrul",
+          "amount": 55
+        }
+      ]
     }
   },
   {
     "name": "Atlas Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Atlas Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Nano Spores",
+          "amount": 1800
+        },
+        {
+          "name": "Cryotic",
+          "amount": 1300
+        },
+        {
+          "name": "Rubedo",
+          "amount": 700
+        },
+        {
+          "name": "Argon Crystal",
+          "amount": 2
+        }
+      ]
     }
   },
   {
     "name": "Gara Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Gara Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Cetus Wisp",
+          "amount": 2
+        },
+        {
+          "name": "Coprite Alloy",
+          "amount": 120
+        },
+        {
+          "name": "Iradite",
+          "amount": 55
+        },
+        {
+          "name": "Rubedo",
+          "amount": 800
+        }
+      ]
     }
   },
   {
     "name": "Hydroid Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Hydroid Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Alloy Plate",
+          "amount": 150
+        },
+        {
+          "name": "Control Module",
+          "amount": 1
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 150
+        },
+        {
+          "name": "Argon Crystal",
+          "amount": 2
+        }
+      ]
     }
   },
   {
     "name": "Baruuk Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Baruuk Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Sola Toroid",
+          "amount": 3
+        },
+        {
+          "name": "Alloy Plate",
+          "amount": 2850
+        },
+        {
+          "name": "Hespazym Alloy",
+          "amount": 100
+        },
+        {
+          "name": "Synathid Ecosynth Analyzer",
+          "amount": 5
+        }
+      ]
     }
   },
   {
     "name": "Caliban Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Caliban Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Anomaly Shard",
+          "amount": 3
+        },
+        {
+          "name": "Narmer Isoplast",
+          "amount": 12
+        },
+        {
+          "name": "Breath Of The Eidolon",
+          "amount": 30
+        },
+        {
+          "name": "Hexenon",
+          "amount": 30
+        }
+      ]
     }
   },
   {
     "name": "Cyte-09 Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Cyte-09 Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Efervon Sample",
+          "amount": 20
+        },
+        {
+          "name": "Circuits",
+          "amount": 500
+        },
+        {
+          "name": "Experimental Arc-Relay",
+          "amount": 4
+        },
+        {
+          "name": "Techrot Motherboard",
+          "amount": 6
+        }
+      ]
     }
   },
   {
     "name": "Equinox Day Aspect",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Equinox Day Aspect Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Equinox Day Aspect Chassis",
+          "amount": 1
+        },
+        {
+          "name": "Equinox Day Aspect Neuroptics",
+          "amount": 1
+        },
+        {
+          "name": "Equinox Day Aspect systems",
+          "amount": 4
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
     }
   },
   {
     "name": "Frost Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Frost Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Alloy Plate",
+          "amount": 150
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 1
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 150
+        },
+        {
+          "name": "Rubedo",
+          "amount": 500
+        }
+      ]
     }
   },
   {
     "name": "Caliban Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Caliban Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Anomaly Shard",
+          "amount": 3
+        },
+        {
+          "name": "Narmer Isoplast",
+          "amount": 12
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 10
+        },
+        {
+          "name": "Tralok Eyes",
+          "amount": 20
+        }
+      ]
     }
   },
   {
     "name": "Dagath Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Dagath Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Vainthorn",
+          "amount": 34
+        },
+        {
+          "name": "Circuits",
+          "amount": 1000
+        },
+        {
+          "name": "Control Module",
+          "amount": 5
+        },
+        {
+          "name": "Gallium",
+          "amount": 4
+        }
+      ]
     }
   },
   {
     "name": "Dante Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Dante Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Entrati Lanthorn",
+          "amount": 2
+        },
+        {
+          "name": "Alloy Plate",
+          "amount": 8000
+        },
+        {
+          "name": "Entrati Obols",
+          "amount": 12000
+        },
+        {
+          "name": "Plastids",
+          "amount": 2000
+        }
+      ]
     }
   },
   {
     "name": "Garuda Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Garuda Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Vega Toroid",
+          "amount": 2
+        },
+        {
+          "name": "Star Amarast",
+          "amount": 6
+        },
+        {
+          "name": "Axidrol Allow",
+          "amount": 40
+        },
+        {
+          "name": "Nano Spores",
+          "amount": 5000
+        }
+      ]
     }
   },
   {
     "name": "Harrow Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Harrow Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Rubedo",
+          "amount": 1500
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 4000
+        },
+        {
+          "name": "Plastids",
+          "amount": 2000
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 5
+        }
+      ]
     }
   },
   {
     "name": "Excalibur Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Excalibur Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Control Module",
+          "amount": 1
+        },
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Salvage",
+          "amount": 500
+        },
+        {
+          "name": "Plastids",
+          "amount": 220
+        }
+      ]
     }
   },
   {
     "name": "Gauss Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Gauss Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Argon Crystal",
+          "amount": 1
+        },
+        {
+          "name": "Rubedo",
+          "amount": 1600
+        },
+        {
+          "name": "Salvage",
+          "amount": 6200
+        },
+        {
+          "name": "Alloy Plate",
+          "amount": 2950
+        }
+      ]
     }
   },
   {
     "name": "Banshee Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Banshee Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Control Module",
+          "amount": 1
+        },
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Salvage",
+          "amount": 500
+        },
+        {
+          "name": "Plastids",
+          "amount": 400
+        }
+      ]
     }
   },
   {
     "name": "Hildryn Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Hildryn Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Lazulite Toroid",
+          "amount": 2
+        },
+        {
+          "name": "Argon Crystal",
+          "amount": 1
+        },
+        {
+          "name": "Mytocardio Spore",
+          "amount": 85
+        },
+        {
+          "name": "Circuits",
+          "amount": 1600
+        }
+      ]
     }
   },
   {
     "name": "Atlas Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Atlas Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Polymer Bundle",
+          "amount": 1400
+        },
+        {
+          "name": "Alloy Plate",
+          "amount": 1100
+        },
+        {
+          "name": "Circuits",
+          "amount": 800
+        },
+        {
+          "name": "Neurodes",
+          "amount": 5
+        }
+      ]
     }
   },
   {
     "name": "Citrine Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Citrine Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Cryotic",
+          "amount": 1200
+        },
+        {
+          "name": "Alloy Plate",
+          "amount": 3000
+        },
+        {
+          "name": "Stellated Necrathene",
+          "amount": 6
+        },
+        {
+          "name": "Nano Spores",
+          "amount": 2000
+        }
+      ]
     }
   },
   {
     "name": "Mag Systems",
     "crafting": {
-      "blueprint": {}
-    }
+        "blueprint": {
+          "name": "Mag Systems Blueprint"
+        },
+        "materials": [
+          {
+            "name": "Control Module",
+            "amount": 1
+          },
+          {
+            "name": "Morphics",
+            "amount": 1
+          },
+          {
+            "name": "Salvage",
+            "amount": 500
+          },
+          {
+            "name": "Plastids",
+            "amount": 220
+          }
+        ]
+      }
+    
   },
   {
     "name": "Kullervo Systems",
     "crafting": {
-      "blueprint": {}
-    }
+        "blueprint": {
+          "name": "Kullervo Systems Blueprint"
+        },
+        "materials": [
+          {
+            "name": "Aggristone",
+            "amount": 100
+          },
+          {
+            "name": "Envani",
+            "amount": 100
+          },
+          {
+            "name": "Ariette Scale",
+            "amount": 360
+          },
+          {
+            "name": "Ueymag",
+            "amount": 100
+          }
+        ]
+      }
+    
   },
   {
     "name": "Mesa Chassis",
     "crafting": {
-      "blueprint": {}
-    }
+        "blueprint": {
+          "name": "Mesa Chassis Blueprint"
+        },
+        "materials": [
+          {
+            "name": "Morphics",
+            "amount": 1
+          },
+          {
+            "name": "Oxium",
+            "amount": 50
+          },
+          {
+            "name": "Plastids",
+            "amount": 300
+          },
+          {
+            "name": "Nano Spores",
+            "amount": 1000
+          }
+        ]
+      }
+    
   },
   {
     "name": "Mirage Chassis",
     "crafting": {
-      "blueprint": {}
-    }
+        "blueprint": {
+          "name": "Mirage Chassis Blueprint"
+        },
+        "materials": [
+          {
+            "name": "Orokin Cell",
+            "amount": 1
+          },
+          {
+            "name": "Ferrite",
+            "amount": 2500
+          },
+          {
+            "name": "Plastids",
+            "amount": 450
+          },
+          {
+            "name": "Gallium",
+            "amount": 1
+          }
+        ]
+      }
+    
   },
   {
     "name": "Styanax Systems",
     "crafting": {
-      "blueprint": {}
-    }
+        "blueprint": {
+          "name": "Styanax Systems Blueprint"
+        },
+        "materials": [
+          {
+            "name": "Rubedo",
+            "amount": 1200
+          },
+          {
+            "name": "Radiant Sentirum",
+            "amount": 5
+          },
+          {
+            "name": "Thrax Plasm",
+            "amount": 400
+          },
+          {
+            "name": "Voidplume Quill",
+            "amount": 15
+          }
+        ]
+      }
+    
   },
   {
     "name": "Valkyr Chassis",
     "crafting": {
-      "blueprint": {}
+        "blueprint": {
+          "name": "Valkyr Chassis Blueprint"
+        },
+        "materials": [
+          {
+            "name": "Morphics",
+            "amount": 1
+          },
+          {
+            "name": "Ferrite",
+            "amount": 900
+          },
+          {
+            "name": "Rubedo",
+            "amount": 50
+          }
+        ]
+      
     }
   },
   {
     "name": "Octavia Neuroptics",
     "crafting": {
-      "blueprint": {}
+        "blueprint": {
+          "name": "Octavia Neuroptics Blueprint"
+        },
+        "materials": [
+          {
+            "name": "Oxium",
+            "amount": 1000
+          },
+          {
+            "name": "Polymer Bundle",
+            "amount": 4800
+          },
+          {
+            "name": "Plastids",
+            "amount": 2600
+          },
+          {
+            "name": "Neural Sensors",
+            "amount": 5
+          }
+        ]
+      
     }
   },
   {
@@ -2523,61 +3796,265 @@
   {
     "name": "Qorvex Chassis",
     "crafting": {
-      "blueprint": {}
-    }
+        "blueprint": {
+          "name": "Qorvex Chassis Blueprint"
+        },
+        "materials": [
+          {
+            "name": "Entrati Obols",
+            "amount": 2300
+          },
+          {
+            "name": "Necracoil",
+            "amount": 45
+          },
+          {
+            "name": "Stela",
+            "amount": 25
+          },
+          {
+            "name": "Entrati Lanthorn",
+            "amount": 3
+          }
+        ]
+      }
+    
   },
   {
     "name": "Inaros Chassis",
     "crafting": {
-      "blueprint": {}
-    }
+        "blueprint": {
+          "name": "Inaros Chassis Blueprint"
+        },
+        "materials": [
+          {
+            "name": "Neurodes",
+            "amount": 3
+          },
+          {
+            "name": "Nano Spores",
+            "amount": 1000
+          },
+          {
+            "name": "Plastids",
+            "amount": 300
+          },
+          {
+            "name": "Oxium",
+            "amount": 100
+          }
+        ]
+      }
+    
   },
   {
     "name": "Lavos Chassis",
     "crafting": {
-      "blueprint": {}
-    }
+        "blueprint": {
+          "name": "Lavos Chassis Blueprint"
+        },
+        "materials": [
+          {
+            "name": "Argon Crystal",
+            "amount": 2
+          },
+          {
+            "name": "Nitain Extract",
+            "amount": 5
+          },
+          {
+            "name": "Cryotic",
+            "amount": 1500
+          },
+          {
+            "name": "Polymer Bundle",
+            "amount": 5500
+          }
+        ]
+      }
+    
   },
   {
     "name": "Oberon Neuroptics",
     "crafting": {
-      "blueprint": {}
-    }
+        "blueprint": {
+          "name": "Oberon Neuroptics Blueprint"
+        },
+        "materials": [
+          {
+            "name": "Alloy Plate",
+            "amount": 150
+          },
+          {
+            "name": "Control Module",
+            "amount": 1
+          },
+          {
+            "name": "Polymer Bundle",
+            "amount": 150
+          },
+          {
+            "name": "Circuits",
+            "amount": 500
+          }
+        ]
+      }
+    
   },
   {
     "name": "Jade Systems",
     "crafting": {
-      "blueprint": {}
-    }
+        "blueprint": {
+          "name": "Jade Systems Blueprint"
+        },
+        "materials": [
+          {
+            "name": "Ferrite",
+            "amount": 600
+          },
+          {
+            "name": "Plastids",
+            "amount": 600
+          },
+          {
+            "name": "Rubedo",
+            "amount": 1100
+          },
+          {
+            "name": "Control Module",
+            "amount": 10
+          }
+        ]
+      }
+    
   },
   {
     "name": "Voruna Neuroptics",
     "crafting": {
-      "blueprint": {}
-    }
+        "blueprint": {
+          "name": "Voruna Neuroptics Blueprint"
+        },
+        "materials": [
+          {
+            "name": "Somatic Fibers",
+            "amount": 20
+          },
+          {
+            "name": "Alloy Plate",
+            "amount": 2500
+          },
+          {
+            "name": "Polymer Bundle",
+            "amount": 800
+          },
+          {
+            "name": "Lua Thrax Plasm",
+            "amount": 25
+          }
+        ]
+      }
+    
   },
   {
     "name": "Protea Chassis",
     "crafting": {
-      "blueprint": {}
-    }
+        "blueprint": {
+          "name": "Protea Chassis Blueprint"
+        },
+        "materials": [
+          {
+            "name": "Alloy Plate",
+            "amount": 20000
+          },
+          {
+            "name": "Carbides",
+            "amount": 2750
+          },
+          {
+            "name": "Oxium",
+            "amount": 550
+          },
+          {
+            "name": "Morphics",
+            "amount": 12
+          }
+        ]
+      }
+    
   },
   {
     "name": "Revenant Chassis",
     "crafting": {
-      "blueprint": {}
-    }
+        "blueprint": {
+          "name": "Revenant Chassis Blueprint"
+        },
+        "materials": [
+          {
+            "name": "Neural Sensors",
+            "amount": 3
+          },
+          {
+            "name": "Intact Sentient Core",
+            "amount": 15
+          },
+          {
+            "name": "Polymer Bundle",
+            "amount": 6000
+          },
+          {
+            "name": "Rubedo",
+            "amount": 2200
+          }
+        ]
+      }
+    
   },
   {
     "name": "Lavos Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Lavos Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Cabochon Embolos",
+          "amount": 6
+        },
+        {
+          "name": "Nano Spores",
+          "amount": 5500
+        },
+        {
+          "name": "Hexenon",
+          "amount": 550
+        },
+        {
+          "name": "Circuits",
+          "amount": 3000
+        }
+      ]
     }
   },
   {
     "name": "Oberon Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Oberon Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Gallium",
+          "amount": 1
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 1000
+        },
+        {
+          "name": "Rubedo",
+          "amount": 300
+        }
+      ]
     }
   },
   {
@@ -2589,163 +4066,687 @@
   {
     "name": "Jade Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Jade Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Circuits",
+          "amount": 1000
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 750
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 3
+        },
+        {
+          "name": "Neurodes",
+          "amount": 4
+        }
+      ]
     }
   },
   {
     "name": "Loki Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Loki Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Ferrite",
+          "amount": 1000
+        },
+        {
+          "name": "Rubedo",
+          "amount": 300
+        }
+      ]
     }
   },
   {
     "name": "Nova Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Nova Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Control Module",
+          "amount": 1
+        },
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Salvage",
+          "amount": 500
+        },
+        {
+          "name": "Plastids",
+          "amount": 600
+        }
+      ]
     }
   },
   {
     "name": "Ivara Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Ivara Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Neurodes",
+          "amount": 5
+        },
+        {
+          "name": "Plastids",
+          "amount": 800
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 2600
+        },
+        {
+          "name": "Argon Crystal",
+          "amount": 2
+        }
+      ]
     }
   },
   {
     "name": "Ivara Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Ivara Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Control Module",
+          "amount": 5
+        },
+        {
+          "name": "Rubedo",
+          "amount": 1000
+        },
+        {
+          "name": "Nitain Extract",
+          "amount": 5
+        },
+        {
+          "name": "Argon Crystal",
+          "amount": 1
+        }
+      ]
     }
   },
   {
     "name": "Volt Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Volt Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Ferrite",
+          "amount": 1000
+        },
+        {
+          "name": "Rubedo",
+          "amount": 300
+        }
+      ]
     }
   },
   {
     "name": "Volt Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Volt Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Control Module",
+          "amount": 1
+        },
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Salvage",
+          "amount": 500
+        },
+        {
+          "name": "Plastids",
+          "amount": 220
+        }
+      ]
     }
   },
   {
     "name": "Zephyr Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Zephyr Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Control Module",
+          "amount": 1
+        },
+        {
+          "name": "Oxium",
+          "amount": 200
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 500
+        },
+        {
+          "name": "Plastids",
+          "amount": 400
+        }
+      ]
     }
   },
   {
     "name": "Revenant Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Revenant Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Neural Sensors",
+          "amount": 3
+        },
+        {
+          "name": "Intact Sentient Core",
+          "amount": 15
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 6000
+        },
+        {
+          "name": "Rubedo",
+          "amount": 2200
+        }
+      ]
     }
   },
   {
     "name": "Mirage Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Mirage Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Alloy Plate",
+          "amount": 250
+        },
+        {
+          "name": "Neurodes",
+          "amount": 1
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 400
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
     }
   },
   {
     "name": "Trinity Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Trinity Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Ferrite",
+          "amount": 1000
+        },
+        {
+          "name": "Rubedo",
+          "amount": 300
+        }
+      ]
     }
   },
   {
     "name": "Yareli Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Yareli Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Tellurium",
+          "amount": 2
+        },
+        {
+          "name": "Venerdo Alloy",
+          "amount": 20
+        },
+        {
+          "name": "Circuits",
+          "amount": 350
+        },
+        {
+          "name": "Nano Spores",
+          "amount": 1500
+        }
+      ]
     }
   },
   {
     "name": "Khora Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Khora Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Kavat Genetic Code",
+          "amount": 5
+        },
+        {
+          "name": "Iradite",
+          "amount": 65
+        },
+        {
+          "name": "Alloy Plate",
+          "amount": 12250
+        },
+        {
+          "name": "Rubedo",
+          "amount": 4300
+        }
+      ]
     }
   },
   {
     "name": "Koumei Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Koumei Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Fate Pearl",
+          "amount": 24
+        },
+        {
+          "name": "Rubedo",
+          "amount": 100
+        },
+        {
+          "name": "Neurodes",
+          "amount": 1
+        },
+        {
+          "name": "Iradite",
+          "amount": 50
+        }
+      ]
     }
   },
   {
     "name": "Xaku Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Xaku Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Neural Sensors",
+          "amount": 10
+        },
+        {
+          "name": "Thaumic Distillate",
+          "amount": 60
+        },
+        {
+          "name": "Sharrac Teeth",
+          "amount": 20
+        },
+        {
+          "name": "Esher Devar",
+          "amount": 40
+        }
+      ]
     }
   },
   {
     "name": "Qorvex Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Qorvex Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Entrati Obols",
+          "amount": 1500
+        },
+        {
+          "name": "Necracoil",
+          "amount": 60
+        },
+        {
+          "name": "Argon Crystal",
+          "amount": 2
+        },
+        {
+          "name": "Entrati Lanthorn",
+          "amount": 4
+        }
+      ]
     }
   },
   {
     "name": "Revenant Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Revenant Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Control Module",
+          "amount": 3
+        },
+        {
+          "name": "Cetus Wisp",
+          "amount": 3
+        },
+        {
+          "name": "Salvage",
+          "amount": 8000
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 3000
+        }
+      ]
     }
   },
   {
     "name": "Khora Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Khora Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Kavat Genetic Code",
+          "amount": 5
+        },
+        {
+          "name": "Kuaka Spinal Claw",
+          "amount": 35
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 1500
+        },
+        {
+          "name": "Salvage",
+          "amount": 16000
+        }
+      ]
     }
   },
   {
     "name": "Mag Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Mag Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Ferrite",
+          "amount": 1000
+        },
+        {
+          "name": "Rubedo",
+          "amount": 300
+        }
+      ]
     }
   },
   {
     "name": "Styanax Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Styanax Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Entrati Lanthorn",
+          "amount": 5
+        },
+        {
+          "name": "Hespazym Alloy",
+          "amount": 60
+        },
+        {
+          "name": "Star Crimzian",
+          "amount": 20
+        },
+        {
+          "name": "Oxium",
+          "amount": 1200
+        }
+      ]
     }
   },
   {
     "name": "Loki Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Loki Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Alloy Plate",
+          "amount": 150
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 1
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 150
+        },
+        {
+          "name": "Rubedo",
+          "amount": 500
+        }
+      ]
     }
   },
   {
     "name": "Nyx Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Nyx Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Alloy Plate",
+          "amount": 150
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 1
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 150
+        },
+        {
+          "name": "Rubedo",
+          "amount": 500
+        }
+      ]
     }
   },
   {
     "name": "Nidus Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Nidus Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Nano Spores",
+          "amount": 6000
+        },
+        {
+          "name": "Circuits",
+          "amount": 3500
+        },
+        {
+          "name": "Morphics",
+          "amount": 14
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 6
+        }
+      ]
     }
   },
   {
     "name": "Inaros Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Inaros Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Alloy Plate",
+          "amount": 1500
+        },
+        {
+          "name": "Nitain Extract",
+          "amount": 2
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 350
+        },
+        {
+          "name": "Plastids",
+          "amount": 500
+        }
+      ]
     }
   },
   {
     "name": "Rhino Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Rhino Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Alloy Plate",
+          "amount": 150
+        },
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 150
+        },
+        {
+          "name": "Rubedo",
+          "amount": 500
+        }
+      ]
     }
   },
   {
     "name": "Xaku Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Xaku Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Breath Of The Eidolon",
+          "amount": 10
+        },
+        {
+          "name": "Scintillant",
+          "amount": 5
+        },
+        {
+          "name": "Pustulite",
+          "amount": 45
+        },
+        {
+          "name": "Ganglion",
+          "amount": 60
+        }
+      ]
     }
   },
   {
     "name": "Yareli Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Yareli Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Argon Crystal",
+          "amount": 2
+        },
+        {
+          "name": "Plastids",
+          "amount": 150
+        },
+        {
+          "name": "Salvage",
+          "amount": 875
+        },
+        {
+          "name": "Heart Noctrul",
+          "amount": 10
+        }
+      ]
     }
   },
   {
@@ -2757,19 +4758,79 @@
   {
     "name": "Mirage Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Mirage Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Control Module",
+          "amount": 1
+        },
+        {
+          "name": "Circuits",
+          "amount": 250
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 650
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        }
+      ]
     }
   },
   {
     "name": "Mag Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Mag Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Alloy Plate",
+          "amount": 150
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 1
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 150
+        },
+        {
+          "name": "Rubedo",
+          "amount": 500
+        }
+      ]
     }
   },
   {
     "name": "Jade Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Jade Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Alloy Plate",
+          "amount": 600
+        },
+        {
+          "name": "Nano Spores",
+          "amount": 4000
+        },
+        {
+          "name": "Plastids",
+          "amount": 1500
+        },
+        {
+          "name": "Morphics",
+          "amount": 6
+        }
+      ]
     }
   },
   {
@@ -2781,175 +4842,739 @@
   {
     "name": "Nekros Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Nekros Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Ferrite",
+          "amount": 1000
+        },
+        {
+          "name": "Rubedo",
+          "amount": 300
+        }
+      ]
     }
   },
   {
     "name": "Ivara Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Ivara Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Morphics",
+          "amount": 5
+        },
+        {
+          "name": "Cryotic",
+          "amount": 2000
+        },
+        {
+          "name": "Rubedo",
+          "amount": 700
+        },
+        {
+          "name": "Nitain Extract",
+          "amount": 4
+        }
+      ]
     }
   },
   {
     "name": "Vauban Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Vauban Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Control Module",
+          "amount": 1
+        },
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Salvage",
+          "amount": 500
+        },
+        {
+          "name": "Plastids",
+          "amount": 220
+        }
+      ]
     }
   },
   {
     "name": "Vauban Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Vauban Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Ferrite",
+          "amount": 1000
+        },
+        {
+          "name": "Rubedo",
+          "amount": 300
+        }
+      ]
     }
   },
   {
     "name": "Lavos Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Lavos Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Trapezium Xenorhast",
+          "amount": 6
+        },
+        {
+          "name": "Titanium",
+          "amount": 2000
+        },
+        {
+          "name": "Oxium",
+          "amount": 750
+        },
+        {
+          "name": "Rubedo",
+          "amount": 2750
+        }
+      ]
     }
   },
   {
     "name": "Koumei Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Koumei Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Fate Pearl",
+          "amount": 24
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 300
+        },
+        {
+          "name": "Grokdrul",
+          "amount": 30
+        },
+        {
+          "name": "Esher Devar",
+          "amount": 10
+        }
+      ]
     }
   },
   {
     "name": "Loki Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Loki Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Control Module",
+          "amount": 1
+        },
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Salvage",
+          "amount": 500
+        },
+        {
+          "name": "Plastids",
+          "amount": 220
+        }
+      ]
     }
   },
   {
     "name": "Protea Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Protea Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Salvage",
+          "amount": 11500
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 5150
+        },
+        {
+          "name": "Cubic Diodes",
+          "amount": 1250
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 5
+        }
+      ]
     }
   },
   {
     "name": "Protea Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Protea Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Ferrite",
+          "amount": 13400
+        },
+        {
+          "name": "Cryotic",
+          "amount": 1000
+        },
+        {
+          "name": "Titanium",
+          "amount": 1750
+        },
+        {
+          "name": "Control Module",
+          "amount": 10
+        }
+      ]
     }
   },
   {
     "name": "Mesa Systems",
     "crafting": {
-      "blueprint": {}
-    }
-  },
-  {
-    "name": "Trinity Neuroptics",
-    "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Mesa Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Argon Crystal",
+          "amount": 1
+        },
+        {
+          "name": "Nano Spores",
+          "amount": 1600
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 300
+        },
+        {
+          "name": "Circuits",
+          "amount": 500
+        }
+      ]
     }
   },
   {
     "name": "Voruna Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Voruna Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Nitain Extract",
+          "amount": 5
+        },
+        {
+          "name": "Voidgel Orb",
+          "amount": 30
+        },
+        {
+          "name": "Salvage",
+          "amount": 5000
+        },
+        {
+          "name": "Lua Thrax Plasm",
+          "amount": 25
+        }
+      ]
+    }
+  },
+  {
+    "name": "Trinity Neuroptics",
+    "crafting": {
+      "blueprint": {
+        "name": "Trinity Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Alloy Plate",
+          "amount": 150
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 1
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 150
+        },
+        {
+          "name": "Rubedo",
+          "amount": 500
+        }
+      ]
     }
   },
   {
     "name": "Titania Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Titania Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Alloy Plate",
+          "amount": 1500
+        },
+        {
+          "name": "Neurodes",
+          "amount": 2
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 2500
+        },
+        {
+          "name": "Circuits",
+          "amount": 700
+        }
+      ]
     }
   },
   {
     "name": "Titania Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Titania Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Control Module",
+          "amount": 1
+        },
+        {
+          "name": "Plastids",
+          "amount": 800
+        },
+        {
+          "name": "Cryotic",
+          "amount": 2200
+        },
+        {
+          "name": "Tellurium",
+          "amount": 1
+        }
+      ]
     }
   },
   {
     "name": "Sevagoth Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Sevagoth Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Argon Crystal",
+          "amount": 2
+        },
+        {
+          "name": "Oxium",
+          "amount": 250
+        },
+        {
+          "name": "Asterite",
+          "amount": 15
+        },
+        {
+          "name": "Nano Spores",
+          "amount": 2950
+        }
+      ]
     }
   },
   {
     "name": "Styanax Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Styanax Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Argon Crystal",
+          "amount": 2
+        },
+        {
+          "name": "Ferrite",
+          "amount": 3000
+        },
+        {
+          "name": "Purged Dagonic",
+          "amount": 40
+        },
+        {
+          "name": "Norg Brain",
+          "amount": 5
+        }
+      ]
     }
   },
   {
     "name": "Vauban Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Vauban Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Alloy Plate",
+          "amount": 150
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 1
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 150
+        },
+        {
+          "name": "Rubedo",
+          "amount": 500
+        }
+      ]
     }
   },
   {
     "name": "Nidus Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Nidus Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Polymer Bundle",
+          "amount": 6000
+        },
+        {
+          "name": "Nano Spores",
+          "amount": 5000
+        },
+        {
+          "name": "Plastids",
+          "amount": 1400
+        },
+        {
+          "name": "Neurodes",
+          "amount": 3
+        }
+      ]
     }
   },
   {
     "name": "Rhino Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Rhino Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Ferrite",
+          "amount": 1000
+        },
+        {
+          "name": "Rubedo",
+          "amount": 300
+        }
+      ]
     }
   },
   {
     "name": "Trinity Systems",
     "crafting": {
-      "blueprint": {}
-    }
-  },
-  {
-    "name": "Valkyr Systems",
-    "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Trinity Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Control Module",
+          "amount": 1
+        },
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Salvage",
+          "amount": 500
+        },
+        {
+          "name": "Plastids",
+          "amount": 220
+        }
+      ]
     }
   },
   {
     "name": "Koumei Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Koumei Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Fate Pearl",
+          "amount": 24
+        },
+        {
+          "name": "Circuits",
+          "amount": 150
+        },
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Tear Azurite",
+          "amount": 10
+        }
+      ]
+    }
+  },
+  {
+    "name": "Valkyr Systems",
+    "crafting": {
+      "blueprint": {
+        "name": "Valkyr Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Control Module",
+          "amount": 1
+        },
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Salvage",
+          "amount": 500
+        },
+        {
+          "name": "Plastids",
+          "amount": 400
+        }
+      ]
     }
   },
   {
     "name": "Valkyr Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Valkyr Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Circuits",
+          "amount": 150
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 1
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 200
+        },
+        {
+          "name": "Salvage",
+          "amount": 500
+        }
+      ]
     }
   },
   {
     "name": "Limbo Chassis",
     "crafting": {
-      "blueprint": {}
-    }
-  },
-  {
-    "name": "Oberon Systems",
-    "crafting": {
-      "blueprint": {}
-    }
-  },
-  {
-    "name": "Octavia Systems",
-    "crafting": {
-      "blueprint": {}
-    }
-  },
-  {
-    "name": "Nova Neuroptics",
-    "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Limbo Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Neural Sensors",
+          "amount": 1
+        },
+        {
+          "name": "Ferrite",
+          "amount": 1000
+        },
+        {
+          "name": "Rubedo",
+          "amount": 300
+        },
+        {
+          "name": "Argon Crystal",
+          "amount": 1
+        }
+      ]
     }
   },
   {
     "name": "Limbo Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Limbo Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Alloy Plate",
+          "amount": 150
+        },
+        {
+          "name": "Neurodes",
+          "amount": 2
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 150
+        },
+        {
+          "name": "Rubedo",
+          "amount": 500
+        }
+      ]
+    }
+  },
+  {
+    "name": "Oberon Systems",
+    "crafting": {
+      "blueprint": {
+        "name": "Oberon Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Orokin Cell",
+          "amount": 1
+        },
+        {
+          "name": "Gallium",
+          "amount": 1
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 500
+        },
+        {
+          "name": "Alloy Plate",
+          "amount": 220
+        }
+      ]
+    }
+  },
+  {
+    "name": "Octavia Systems",
+    "crafting": {
+      "blueprint": {
+        "name": "Octavia Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Kuva",
+          "amount": 2000
+        },
+        {
+          "name": "Circuits",
+          "amount": 3000
+        },
+        {
+          "name": "Morphics",
+          "amount": 20
+        },
+        {
+          "name": "Orokin Cell",
+          "amount": 5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Nova Neuroptics",
+    "crafting": {
+      "blueprint": {
+        "name": "Nova Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Alloy Plate",
+          "amount": 150
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 1
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 150
+        },
+        {
+          "name": "Rubedo",
+          "amount": 500
+        }
+      ]
     }
   },
   {
     "name": "Nova Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Nova Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Ferrite",
+          "amount": 1000
+        },
+        {
+          "name": "Rubedo",
+          "amount": 300
+        }
+      ]
     }
   },
   {
@@ -2959,135 +5584,567 @@
     }
   },
   {
+    "name": "Zephyr Neuroptics",
+    "crafting": {
+      "blueprint": {
+        "name": "Zephyr Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Circuits",
+          "amount": 150
+        },
+        {
+          "name": "Oxium",
+          "amount": 200
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 200
+        },
+        {
+          "name": "Salvage",
+          "amount": 500
+        }
+      ]
+    }
+  },
+  {
     "name": "Zephyr Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Zephyr Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Oxium",
+          "amount": 200
+        },
+        {
+          "name": "Nano Spores",
+          "amount": 900
+        },
+        {
+          "name": "Rubedo",
+          "amount": 50
+        }
+      ]
     }
   },
   {
     "name": "Kullervo Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Kullervo Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Lamentus",
+          "amount": 50
+        },
+        {
+          "name": "Tasoma Extract",
+          "amount": 50
+        },
+        {
+          "name": "Saggen Pearl",
+          "amount": 100
+        },
+        {
+          "name": "Connla Sprout",
+          "amount": 100
+        }
+      ]
     }
   },
   {
     "name": "Qorvex Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Qorvex Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Entrati Obols",
+          "amount": 2300
+        },
+        {
+          "name": "Necracoil",
+          "amount": 45
+        },
+        {
+          "name": "Stela",
+          "amount": 25
+        },
+        {
+          "name": "Entrati Lanthorn",
+          "amount": 3
+        }
+      ]
     }
   },
   {
     "name": "Nyx Systems",
     "crafting": {
-      "blueprint": {}
-    }
-  },
-  {
-    "name": "Zephyr Neuroptics",
-    "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Nyx Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Control Module",
+          "amount": 1
+        },
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Salvage",
+          "amount": 500
+        },
+        {
+          "name": "Plastids",
+          "amount": 220
+        }
+      ]
     }
   },
   {
     "name": "Nyx Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Nyx Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Ferrite",
+          "amount": 1000
+        },
+        {
+          "name": "Rubedo",
+          "amount": 300
+        }
+      ]
     }
   },
   {
     "name": "Titania Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Titania Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Nitain Extract",
+          "amount": 3
+        },
+        {
+          "name": "Ferrite",
+          "amount": 3000
+        },
+        {
+          "name": "Rubedo",
+          "amount": 900
+        },
+        {
+          "name": "Tellurium",
+          "amount": 1
+        }
+      ]
     }
   },
   {
     "name": "Saryn Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Saryn Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Circuits",
+          "amount": 150
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 1
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 300
+        },
+        {
+          "name": "Salvage",
+          "amount": 400
+        }
+      ]
     }
   },
   {
     "name": "Inaros Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Inaros Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Argon Crystal",
+          "amount": 2
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 300
+        },
+        {
+          "name": "Nano Spores",
+          "amount": 1600
+        },
+        {
+          "name": "Circuits",
+          "amount": 500
+        }
+      ]
     }
   },
   {
     "name": "Khora Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Khora Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Kavat Genetic Code",
+          "amount": 2
+        },
+        {
+          "name": "Plastids",
+          "amount": 1000
+        },
+        {
+          "name": "Circuits",
+          "amount": 2600
+        },
+        {
+          "name": "Ferrite",
+          "amount": 11500
+        }
+      ]
     }
   },
   {
     "name": "Voruna Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Voruna Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Voidgel Orb",
+          "amount": 20
+        },
+        {
+          "name": "Ferrite",
+          "amount": 1000
+        },
+        {
+          "name": "Rubedo",
+          "amount": 300
+        },
+        {
+          "name": "Lua Thrax Plasm",
+          "amount": 25
+        }
+      ]
     }
   },
   {
     "name": "Nekros Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Nekros Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Control Module",
+          "amount": 1
+        },
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Salvage",
+          "amount": 500
+        },
+        {
+          "name": "Plastids",
+          "amount": 220
+        }
+      ]
     }
   },
   {
     "name": "Nekros Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Nekros Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Alloy Plate",
+          "amount": 150
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 1
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 150
+        },
+        {
+          "name": "Rubedo",
+          "amount": 500
+        }
+      ]
     }
   },
   {
     "name": "Kullervo Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Kullervo Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Necreous Pebble",
+          "amount": 12
+        },
+        {
+          "name": "Kovnik",
+          "amount": 100
+        },
+        {
+          "name": "Rune Marrow",
+          "amount": 75
+        },
+        {
+          "name": "Ueymag",
+          "amount": 100
+        }
+      ]
     }
   },
   {
     "name": "Mesa Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Mesa Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Alloy Plate",
+          "amount": 1500
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 2
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 350
+        },
+        {
+          "name": "Plastids",
+          "amount": 500
+        }
+      ]
     }
   },
   {
     "name": "Sevagoth Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Sevagoth Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Neural Sensors",
+          "amount": 6
+        },
+        {
+          "name": "Titanium",
+          "amount": 1200
+        },
+        {
+          "name": "Rubedo",
+          "amount": 750
+        },
+        {
+          "name": "Salvage",
+          "amount": 2750
+        }
+      ]
     }
   },
   {
     "name": "Sevagoth Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Sevagoth Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Morphics",
+          "amount": 8
+        },
+        {
+          "name": "Cryotic",
+          "amount": 650
+        },
+        {
+          "name": "Nullstones",
+          "amount": 2
+        },
+        {
+          "name": "Alloy Plate",
+          "amount": 3300
+        }
+      ]
     }
   },
   {
     "name": "Octavia Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Octavia Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Polymer Bundle",
+          "amount": 6000
+        },
+        {
+          "name": "Salvage",
+          "amount": 25000
+        },
+        {
+          "name": "Plastids",
+          "amount": 1500
+        },
+        {
+          "name": "Neurodes",
+          "amount": 3
+        }
+      ]
     }
   },
   {
     "name": "Rhino Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Rhino Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Gallium",
+          "amount": 1
+        },
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Salvage",
+          "amount": 500
+        },
+        {
+          "name": "Plastids",
+          "amount": 600
+        }
+      ]
     }
   },
   {
     "name": "Limbo Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Limbo Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Control Module",
+          "amount": 1
+        },
+        {
+          "name": "Morphics",
+          "amount": 3
+        },
+        {
+          "name": "Salvage",
+          "amount": 500
+        },
+        {
+          "name": "Plastids",
+          "amount": 220
+        }
+      ]
     }
   },
   {
     "name": "Nidus Neuroptics",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Nidus Neuroptics Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Mutagen Sample",
+          "amount": 10
+        },
+        {
+          "name": "Polymer Bundle",
+          "amount": 2600
+        },
+        {
+          "name": "Plastids",
+          "amount": 1000
+        },
+        {
+          "name": "Neural Sensors",
+          "amount": 3
+        }
+      ]
     }
   },
   {
     "name": "Xaku Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Xaku Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Gyromag Systems",
+          "amount": 5
+        },
+        {
+          "name": "Spinal Core Section",
+          "amount": 3
+        },
+        {
+          "name": "Venerdo Alloy",
+          "amount": 50
+        },
+        {
+          "name": "Lucent Teroglobe",
+          "amount": 50
+        }
+      ]
     }
   },
   {
@@ -3099,13 +6156,49 @@
   {
     "name": "Saryn Chassis",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Saryn Chassis Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Morphics",
+          "amount": 1
+        },
+        {
+          "name": "Ferrite",
+          "amount": 1000
+        },
+        {
+          "name": "Rubedo",
+          "amount": 50
+        }
+      ]
     }
   },
   {
     "name": "Yareli Systems",
     "crafting": {
-      "blueprint": {}
+      "blueprint": {
+        "name": "Yareli Systems Blueprint"
+      },
+      "materials": [
+        {
+          "name": "Nitain Extract",
+          "amount": 2
+        },
+        {
+          "name": "Cryotic",
+          "amount": 350
+        },
+        {
+          "name": "Scrubber Exa Brain",
+          "amount": 5
+        },
+        {
+          "name": "Alloy Plate",
+          "amount": 1750
+        }
+      ]
     }
   }
 ]
